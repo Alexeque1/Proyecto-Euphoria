@@ -1,0 +1,718 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue1';
+    src: url('../FONTS/_H_HelveticaNeueInterface_3.ttf') format('truetype');
+    font-style: bold;
+    font-weight: normal;
+  }
+ 
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: rgb(79, 34, 122);
+}
+  
+.header {
+    background-color: #702dbda9;
+    background-size: cover;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.navbar__nav {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.navbar__item {
+    display: inline-block;
+}
+
+.navbar__link {
+    font-family: Staatliches;
+    font-size: 40px;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.navbar__logo {
+    width: 400px;
+}
+
+.presentation__section {
+    background-image: url(../IMAGENES/euphoriabanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 730px;
+}
+
+.presentation {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: HelveticaNeue1;
+    font-size: 100px;
+    text-shadow:
+         0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+
+.subtitlebox {
+    margin: 20px 0px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.subtitlebox__div {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    width: 800px;
+}
+
+.subtitle {
+    font-family: HelveticaNeue1;
+    font-size: 70px;
+    color: white;
+    text-shadow:
+         0 0 5px rgb(153, 78, 155),
+		0 0 10px rgb(153, 78, 155),
+		0 0 20px rgb(153, 78, 155),
+		0 0 40px rgb(101, 52, 103),
+		0 0 80px rgb(101, 52, 103),
+		0 0 90px rgb(101, 52, 103),
+		0 0 100px rgb(101, 52, 103),
+		0 0 140px rgb(101, 52, 103),
+		0 0 180px rgb(101, 52, 103);
+}
+.description {
+    margin: 10px 10px;
+    font-family: HelveticaNeue1;
+    font-size: 35px;
+    color: white;
+}
+
+.lighter {
+    text-shadow:
+         0 0 5px rgb(153, 78, 155),
+		0 0 10px rgb(153, 78, 155),
+		0 0 20px rgb(153, 78, 155),
+		0 0 40px rgb(101, 52, 103),
+		0 0 80px rgb(101, 52, 103),
+		0 0 90px rgb(101, 52, 103),
+		0 0 100px rgb(101, 52, 103),
+		0 0 140px rgb(101, 52, 103),
+		0 0 180px rgb(101, 52, 103);
+}
+
+.phrase {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow:
+         0 0 5px rgb(153, 78, 155),
+		0 0 10px rgb(153, 78, 155),
+		0 0 20px rgb(153, 78, 155),
+		0 0 40px rgb(101, 52, 103),
+		0 0 80px rgb(101, 52, 103),
+		0 0 90px rgb(101, 52, 103),
+		0 0 100px rgb(101, 52, 103),
+		0 0 140px rgb(101, 52, 103),
+		0 0 180px rgb(101, 52, 103);
+}
+
+.parallax {
+    background-image: url("../IMAGENES/banner.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+  }
+
+.newsbox {
+    background-color: rgb(103, 47, 156);
+}
+
+.newsbox__section {
+    padding: 20px;
+}
+
+.section__title {
+    padding: 20px;
+    background-color: rgb(79, 34, 122);
+    font-family: Staatliches;
+    font-size: 50px;
+    color: white;
+    text-shadow:
+         0 0 5px rgb(153, 78, 155),
+		0 0 10px rgb(153, 78, 155),
+		0 0 20px rgb(153, 78, 155),
+		0 0 40px rgb(101, 52, 103),
+		0 0 80px rgb(101, 52, 103),
+		0 0 90px rgb(101, 52, 103),
+		0 0 100px rgb(101, 52, 103),
+		0 0 140px rgb(101, 52, 103),
+		0 0 180px rgb(101, 52, 103);
+}
+
+.section__description {
+    background-color: rgb(79, 34, 122);
+    color: white;
+    font-family: HelveticaNeue1;
+    font-size: 25px;
+    margin: 10px 10px;
+    padding: 20px;
+}
+
+.newsbox__news {
+    justify-content: space-between;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 300px;
+}
+
+.news {
+    background-color: rgb(79, 34, 122);
+    margin: 10px;
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+}
+
+.news__title {
+    font-family: Staatliches;
+    font-size: 40px;
+    color: white;
+    text-shadow: 5px 5px black;
+}
+
+.news__article {
+    font-family: HelveticaNeue1;
+    font-size: 20px;
+    color: white;
+}
+
+.episodesbox {
+    background-color: rgb(103, 47, 156);
+    margin: 20px;
+    padding: 20px;
+}
+
+.episodesbox__section {
+    padding: 20px;
+    margin: 10px;
+}
+
+.episodesbox__section__title {
+    padding: 20px;
+    font-family: Staatliches;
+    font-size: 50px;
+    color: white;
+    text-shadow:
+         0 0 5px rgb(153, 78, 155),
+		0 0 10px rgb(153, 78, 155),
+		0 0 20px rgb(153, 78, 155),
+		0 0 40px rgb(101, 52, 103),
+		0 0 80px rgb(101, 52, 103),
+		0 0 90px rgb(101, 52, 103),
+		0 0 100px rgb(101, 52, 103),
+		0 0 140px rgb(101, 52, 103),
+		0 0 180px rgb(101, 52, 103);
+}
+
+.episodesbox__section__description {
+    background-color: rgb(79, 34, 122);
+    color: white;
+    font-family: HelveticaNeue1;
+    font-size: 25px;
+    margin: 10px 10px;
+    padding: 20px;
+}
+
+.episodes {
+    display: inline-block;
+}
+
+.episodes__box {
+    display: inline-block;
+    background-color: rgb(79, 34, 122);
+    margin: 20px;
+    padding: 20px;
+    width: 700px;
+}
+
+.episodes__link {
+    text-decoration: none;
+    color: white;
+}
+
+.episodes__episodebox {
+    padding: 20px;
+}
+
+.footer {
+    background-color: rgb(58, 57, 57);
+}
+
+.footer__socialmedia {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.socialmedia__items {
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+
+}
+
+.footer__nav {
+    padding: 20px;
+}
+
+.footer__nav__contact {
+    display: inline-block;
+    font-family: HelveticaNeue1;
+    font-size: 30px;
+    color: white;
+}
+
+.footer__nav__link {
+    font-family: HelveticaNeue1;
+    font-size: 25px;
+    padding: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer__nav__options {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.footer__options__title {
+    display: inline-block;
+    font-family: HelveticaNeue1;
+    font-size: 30px;
+    color: white;
+}
+
+.footer__options__item {
+    font-family: HelveticaNeue1;
+    font-size: 25px;
+    padding: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+/* NOTICIAS */
+
+#noticias__news {
+    margin: 20px;
+}
+
+.newsbox__titlesection__title {
+    padding: 20px;
+    font-family: Staatliches;
+    font-size: 80px;
+    color: white;
+    text-shadow:
+         0 0 5px rgb(153, 78, 155),
+		0 0 10px rgb(153, 78, 155),
+		0 0 20px rgb(153, 78, 155),
+		0 0 40px rgb(101, 52, 103),
+		0 0 80px rgb(101, 52, 103),
+		0 0 90px rgb(101, 52, 103),
+		0 0 100px rgb(101, 52, 103),
+		0 0 140px rgb(101, 52, 103),
+		0 0 180px rgb(101, 52, 103);
+}
+
+.newsbox__titlesection__description {
+    font-family: HelveticaNeue1;
+    font-size: 30px;
+    color: white;
+}
+
+.noticias__newsbox {
+    margin: 20px;
+    display: inline-block;
+}
+
+.noticias__newsbox__box {
+    justify-content: space-between;
+}
+
+.noticias__newsbox__news {
+    background-color: rgb(103, 47, 156);
+    display: inline-block;
+    margin: 10px;
+    width: 500px;
+}
+
+.noticias__news__articlebox {
+    padding: 15px;
+    text-align: center;
+}
+
+.noticias__news__title {
+    font-family: Staatliches;
+    font-size: 40px;
+    color: rgb(232, 229, 229);
+    text-shadow: 5px 5px black;
+}
+
+.noticias__news__article {
+    font-family: HelveticaNeue1;
+    font-size: 20px;
+    color: white;
+}
+
+.noticias__newsbox__link {
+    background-color: rgb(50, 35, 50);
+    border-radius: 5px;
+    font-family: Staatliches;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.noticias__newsbox__link:hover {
+    background-color: gray;
+}
+
+/* --------PERSONAJES----------- */
+.personajes__title {
+    padding: 20px;
+    font-family: Staatliches;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    text-shadow:
+         0 0 5px rgb(153, 78, 155),
+		0 0 10px rgb(153, 78, 155),
+		0 0 20px rgb(153, 78, 155),
+		0 0 40px rgb(101, 52, 103),
+		0 0 80px rgb(101, 52, 103),
+		0 0 90px rgb(101, 52, 103),
+		0 0 100px rgb(101, 52, 103),
+		0 0 140px rgb(101, 52, 103),
+		0 0 180px rgb(101, 52, 103);  
+}
+
+.personajesbox {
+    margin-left: 40px;
+    margin-bottom: 80px;
+}
+
+.biobox {
+    margin-bottom: 80px;
+}
+
+.biobox__left {
+    background-color: rgb(89, 47, 129);
+    display: inline-block;
+}
+
+.biobox__right {
+    background-color: rgb(89, 47, 129);
+    display: inline-block;
+    margin-left: 300px;
+}
+
+.biobox__imagediv {
+    display: inline-block;
+}
+
+.biobox__personaje {
+    display: inline-block;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 700px;
+    position: relative;
+}
+
+.personaje__title {
+    position: absolute;
+    bottom: 430px;
+    left: 230px;
+    padding: 20px;
+    font-family: Staatliches;
+    font-size: 50px;
+    color: white;
+    text-shadow:
+         0 0 5px rgb(153, 78, 155),
+		0 0 10px rgb(153, 78, 155),
+		0 0 20px rgb(153, 78, 155),
+		0 0 40px rgb(101, 52, 103),
+		0 0 80px rgb(101, 52, 103),
+		0 0 90px rgb(101, 52, 103),
+		0 0 100px rgb(101, 52, 103),
+		0 0 140px rgb(101, 52, 103),
+		0 0 180px rgb(101, 52, 103);
+}
+
+.personaje__bio {
+    position: absolute;
+    bottom: 80px;
+    margin-bottom: 0px;
+    padding: 10px;
+    font-family: HelveticaNeue1;
+    font-size: 20px;
+    color: white;
+}
+
+.personajesbox__link {
+    padding: 30px;
+}
+
+.personajes__button {
+    background-color: rgb(50, 35, 50);
+    border-radius: 5px;
+    font-family: Staatliches;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 800px;
+}
+
+.personajes__button:hover {
+    background-color: gray;
+}
+
+/* -------NOSOTROS-------- */
+.nosotrosbox__presentation {
+    margin-top: 30px;
+    display: inline-block;
+    background-color: rgb(89, 47, 129);
+    margin-left: 150px;
+}
+
+.nostrosbox__image {
+    display: inline-block;
+}
+
+.nosotros__image {
+    margin-top: 30px;
+}
+
+.nosotrosbox__text {
+    display: inline-block;
+    width: 600px;
+    text-align: center;
+}
+
+.nosotros__description {
+    color: white;
+    font-family: HelveticaNeue1;
+    font-size: 25px;
+    margin-bottom: 13px;
+    padding: 20px;
+}
+
+.nosotros__video {
+    margin-left: 150px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+#nosotros__bannerparallax {
+    background-image: url("../IMAGENES/bannerparallax.png");
+    min-height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 40px 0px;
+    border-radius: 0px;
+}
+
+.usbox {
+    display: inline-block;
+}
+
+.usbox__presentation {
+    text-align: center;
+}
+
+.usbox__title {
+    padding: 20px;
+    font-family: Staatliches;
+    font-size: 100px;
+    color: white;
+    text-shadow:
+         0 0 5px rgb(153, 78, 155),
+		0 0 10px rgb(153, 78, 155),
+		0 0 20px rgb(153, 78, 155),
+		0 0 40px rgb(101, 52, 103),
+		0 0 80px rgb(101, 52, 103),
+		0 0 90px rgb(101, 52, 103),
+		0 0 100px rgb(101, 52, 103),
+		0 0 140px rgb(101, 52, 103),
+		0 0 180px rgb(101, 52, 103);
+}
+
+.usbox__description {
+    font-family: HelveticaNeue1;
+    padding: 60px;
+    font-size: 30px;
+    color: white;
+}
+
+.usbox__images {
+    justify-content: space-around;
+    margin-left: 65px;
+    margin-bottom: 50px;
+}
+
+.usbox__image {
+    margin: 20px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 30px 30px 35px rgba(19, 11, 55, 0.584);
+}
+
+.usbox__contact {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.usbox__contact__title {
+    padding: 20px;
+    font-family: Staatliches;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 40px;
+    text-shadow:
+         0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+
+.usbox__contact__link {
+    background-color: rgb(50, 35, 50);
+    border-radius: 5px;
+    font-family: Staatliches;
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    box-shadow: 0px 10px 10px black;
+}
+
+/* CONTACTO */
+.formulariobox__titulo {
+    width: 500px;
+    margin: 0px 0px 0px 200px;
+    display: inline-block;
+}
+
+.formulario__titulo {
+    padding: 20px;
+    background-color: rgb(79, 34, 122);
+    font-family: Staatliches;
+    font-size: 80px;
+    color: white;
+    text-shadow:
+         0 0 5px rgb(153, 78, 155),
+		0 0 10px rgb(153, 78, 155),
+		0 0 20px rgb(153, 78, 155),
+		0 0 40px rgb(101, 52, 103),
+		0 0 80px rgb(101, 52, 103),
+		0 0 90px rgb(101, 52, 103),
+		0 0 100px rgb(101, 52, 103),
+		0 0 140px rgb(101, 52, 103),
+		0 0 180px rgb(101, 52, 103);
+
+}
+
+.formulario__description {
+    color: white;
+    font-family: HelveticaNeue1;
+    font-size: 30px;
+    margin: 10px 10px;
+    padding: 20px;
+}
+
+.formulariobox {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formulariobox__formulario {
+    box-shadow: 10px 10px 20px black;
+    background-color: rgb(103, 47, 156);
+    margin: 20px 0px 20px 300px;
+    padding: 40px;
+    display: inline-block;
+}
+
+.formulario {
+    padding: 40px;
+}
+
+.formulario__item {
+    margin: 5px;
+}
+
+.formulario__input {
+    font-family: HelveticaNeue1;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.age__country {
+    display: inline-block
+}
+
+.formulario__submit {
+    background-color: rgb(50, 35, 50);
+    border-radius: 5px;
+    font-family: Staatliches;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 120px;
+}

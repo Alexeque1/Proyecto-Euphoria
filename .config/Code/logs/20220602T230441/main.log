@@ -1,0 +1,15 @@
+[2022-06-02 23:04:42.914] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-02 23:04:43.115] [main] [info] update#setState idle
+[2022-06-02 23:04:43.612] [main] [info] ExtensionHostStarterWorker created
+[2022-06-02 23:04:48.965] [main] [info] window#load: window reported ready (id: 1)
+[2022-06-02 23:04:52.407] [main] [info] Starting extension host with pid 8753 (fork() took 232 ms).
+[2022-06-02 23:04:52.408] [main] [info] ExtensionHostStarterWorker.start() took 275 ms.
+[2022-06-02 23:05:13.121] [main] [info] update#setState checking for updates
+[2022-06-02 23:05:13.167] [main] [info] update#setState available for download
+[2022-06-02 23:05:47.432] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-02 23:05:47.680] [main] [info] Extension host with pid 8753 exited with code: 0, signal: null.
+[2022-06-02 23:05:52.897] [main] [info] window#load: window reported ready (id: 1)
+[2022-06-02 23:05:56.753] [main] [info] Starting extension host with pid 8823 (fork() took 323 ms).
+[2022-06-02 23:05:56.799] [main] [info] ExtensionHostStarterWorker.start() took 747 ms.
+[2022-06-02 23:07:12.282] [main] [info] update#setState idle
+[2022-06-02 23:15:50.205] [main] [info] Enabling inspect port on extension host with pid 8823.

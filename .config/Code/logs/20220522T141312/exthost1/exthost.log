@@ -1,0 +1,24 @@
+[2022-05-22 14:13:33.623] [exthost] [info] Extension host with pid 636 started
+[2022-05-22 14:13:37.387] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-05-22 14:13:37.646] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-05-22 14:13:37.678] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-05-22 14:13:37.730] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-05-22 14:13:37.776] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-05-22 14:13:39.493] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-05-22 14:13:39.747] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-05-22 14:13:45.485] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-22 14:13:45.600] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-22 14:13:47.618] [exthost] [info] Eager extensions activated
+[2022-05-22 14:14:19.991] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-05-22 14:14:20.138] [exthost] [info] Extension host with pid 636 exiting with code 0
+[2022-05-22 14:14:27.583] [exthost] [info] Extension host with pid 733 started
+[2022-05-22 14:14:27.583] [exthost] [info] Skipping acquiring lock for /home/alexandersequera97/.config/Code/User/workspaceStorage/6286b3f25dd274a790a59421400c8c92.
+[2022-05-22 14:14:28.393] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-05-22 14:14:28.424] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-05-22 14:14:28.470] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-05-22 14:14:28.501] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-05-22 14:14:29.457] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-05-22 14:14:29.595] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-05-22 14:14:34.018] [exthost] [info] Eager extensions activated
+[2022-05-22 14:14:34.028] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-22 14:14:34.127] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

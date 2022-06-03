@@ -1,0 +1,22 @@
+[2022-05-25 10:15:33.422] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-05-25 10:15:35.336] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-05-25 10:15:35.430] [renderer1] [error] ["Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files"]
+[2022-05-25 10:15:35.431] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-05-25 22:02:13.179] [renderer1] [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.workingCopyHistory, join.closeStorage
+[2022-05-25 22:02:31.123] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-05-25 22:02:34.226] [renderer1] [error] ["Error: The name org.freedesktop.secrets was not provided by any .service files"]
+[2022-05-25 22:02:34.228] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-05-25 22:02:35.447] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-05-26 20:45:52.597] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-05-26 20:45:54.525] [renderer1] [error] ["Error: The name org.freedesktop.secrets was not provided by any .service files"]
+[2022-05-26 20:45:54.528] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-05-26 20:45:55.450] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-05-26 23:57:22.965] [renderer1] [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/alexandersequera97/Euphoria - Alexander Sequera)
+[2022-05-26 23:57:33.643] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-05-26 23:57:35.700] [renderer1] [error] ["Error: The name org.freedesktop.secrets was not provided by any .service files"]
+[2022-05-26 23:57:35.785] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-05-26 23:57:36.298] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-05-26 23:57:44.827] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-05-26 23:57:46.000] [renderer1] [error] ["Error: The name org.freedesktop.secrets was not provided by any .service files"]
+[2022-05-26 23:57:46.001] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-05-26 23:57:46.316] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.

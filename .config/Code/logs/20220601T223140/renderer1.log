@@ -1,0 +1,45 @@
+[2022-06-01 22:31:57.075] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-06-01 22:31:59.005] [renderer1] [error] ["Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files"]
+[2022-06-01 22:31:59.028] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-06-01 22:32:00.275] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-06-01 22:36:18.673] [renderer1] [info] Setting search error: {"url":"https://bingsettingssearch.trafficmanager.net/api/Search","body":"{\"query\":\"(wheel)%5E10%20%7C%7C%20wheel~\",\"filters\":\"(packageid%20eq%20'9ccc1dd7-7ec4-4a46-bd4f-7d7b8b9d322a'%20and%20startbuildno%20le%20'%20%20%20%20%20%20%20%2011%20%20%20%20%20%20%20%2012%20%20%20%20%20%20%20%20%200'%20and%20endbuildno%20ge%20'%20%20%20%20%20%20%20%2011%20%20%20%20%20%20%20%2012%20%20%20%20%20%20%20%20%200')%20or%20(packageid%20eq%20'core'%20and%20startbuildno%20le%20'1660200976460'%20and%20endbuildno%20ge%20'1660200976460')\",\"rawQuery\":\"wheel\"}","hasMoreFilters":false} returned status code: 400
+[2022-06-01 22:36:18.878] [renderer1] [info] Setting search error: {"url":"https://bingsettingssearch.trafficmanager.net/api/Search","body":"{\"query\":\"(wheel)%5E10%20%7C%7C%20wheel~\",\"filters\":\"diminish%20eq%20'latest'\",\"rawQuery\":\"wheel\"}","hasMoreFilters":false} returned status code: 400
+[2022-06-02 18:38:00.673] [renderer1] [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.workingCopyHistory
+[2022-06-02 18:38:20.924] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-06-02 18:38:24.822] [renderer1] [error] ["Error: The name org.freedesktop.secrets was not provided by any .service files"]
+[2022-06-02 18:38:24.852] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-06-02 18:38:26.013] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-06-02 18:38:53.386] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-06-02 18:38:54.946] [renderer1] [error] ["Error: The name org.freedesktop.secrets was not provided by any .service files"]
+[2022-06-02 18:38:54.947] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-06-02 18:38:55.694] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-06-02 18:40:11.658] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-06-02 18:40:12.575] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-06-02 18:40:13.389] [renderer1] [error] ["Error: The name org.freedesktop.secrets was not provided by any .service files"]
+[2022-06-02 18:40:13.391] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-06-02 18:40:35.694] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-06-02 18:40:37.327] [renderer1] [error] ["Error: The name org.freedesktop.secrets was not provided by any .service files"]
+[2022-06-02 18:40:37.362] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-06-02 18:40:38.526] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-06-02 23:01:06.973] [renderer1] [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/alexandersequera97/Desafio - Alexander Sequera)
+[2022-06-02 23:03:29.255] [renderer1] [error] Error: File not found
+    at g.handleSetInputError (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:112725)
+    at async g.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:112400)
+    at async i.doSetInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:26823)
+    at async i.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:25196)
+    at async i.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:24822)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2842:17260
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2975:67218
+[2022-06-02 23:03:33.726] [renderer1] [error] Error: File not found
+    at g.handleSetInputError (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:112725)
+    at async g.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:112400)
+    at async i.doSetInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:26823)
+    at async i.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:25196)
+    at async i.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2636:24822)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2842:17260
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2975:67218
+[2022-06-02 23:03:54.977] [renderer1] [error] Unable to resolve nonexistent file '/home/alexandersequera97/Desafio - Alexander Sequera': Error: Unable to resolve nonexistent file '/home/alexandersequera97/Desafio - Alexander Sequera'
+    at p.resolve (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:28709)
+    at async F.importResources (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2972:15261)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2972:13839
+[2022-06-02 23:03:59.892] [renderer1] [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.workingCopyHistory, join.closeStorage

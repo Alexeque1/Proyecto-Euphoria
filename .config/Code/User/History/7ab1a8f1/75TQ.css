@@ -1,0 +1,746 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue1';
+    src: url('../FONTS/_H_HelveticaNeueInterface_3.ttf') format('truetype');
+    font-style: bold;
+    font-weight: normal;
+  }
+ 
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: rgb(79, 34, 122);
+}
+  
+header {
+    background: linear-gradient(to right, #6F2DBD, #a165e6, #6F2DBD);
+    position: fixed;
+    height: 7rem;
+    display: flex;
+}
+
+.navbar__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar__logo {
+    width: 29%;
+}
+
+.navbar__image {
+    width: 100%;
+    margin: auto;
+}
+
+.navbar__list {
+    display: flex;
+}
+
+.navbar__link {
+    background-color: rgba(0, 0, 0, 0.538);
+    box-shadow: 5px 5px 10px rgb(74, 26, 120);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: Staatliches;
+    font-size: 27px;
+    margin: 0.9rem;
+}
+
+.presentation__section {
+    display: flex;
+    background-image: url(../IMAGENES/euphoriabanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.presentation {
+    display: flex;
+    margin: auto;
+    font-family: Staatliches;
+    font-size: 70px;
+    color: white;
+    text-shadow: 
+        0 0 5px rgb(209, 76, 218),
+		0 0 10px rgb(209, 76, 218),
+		0 0 20px rgb(209, 76, 218),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+    text-align: center;
+}
+
+.subtitlebox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    margin: 10px auto;
+    margin-bottom: 20px;
+}
+
+.subtitlebox__div {
+    width: 50rem;
+    margin: 0px 10px;
+    text-align: center;
+    align-self: center;
+}
+
+.subtitle__video {
+    width: 100%;
+}
+
+.subtitlebox__subtitle {
+    font-family: Staatliches;
+    font-size: 60px;
+    color: white;
+    text-shadow: 
+        0 0 5px rgb(209, 76, 218),
+		0 0 10px rgb(209, 76, 218),
+		0 0 20px rgb(209, 76, 218),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+
+.subtitlebox__description {
+    font-family: HelveticaNeue1;
+    font-size: 25px;
+    margin: 20px;
+    color: white;
+}
+
+.subtitlebox__phrase {
+    font-family: HelveticaNeue1;
+    font-size: 25px;
+    color: white;
+    text-shadow: 
+        0 0 5px rgb(209, 76, 218),
+		0 0 10px rgb(209, 76, 218),
+		0 0 20px rgb(209, 76, 218),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+
+.parallax {
+    background-image: url(../IMAGENES/banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.personajesbox {
+    padding: 15px;
+}
+
+.personajesbox__image {
+    display: flex;
+    width: 50%;
+    margin: 0px auto;
+}
+
+.personajesbox__title {
+    width: 100%;
+}
+
+.personajesbox__personajes {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    flex-wrap: wrap;
+    margin: 0px auto
+}
+
+.personajesbox__images {
+    width: 15%;
+}
+
+.personajes {
+    width: 100%;
+}
+
+.personajesbox__plus {
+    width: 5%;
+    margin: auto 0px;
+}
+
+.plus {
+    width: 100%;
+}
+
+.newsbox {
+    background-color: #74269d;
+    margin: 20px 0px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.newsbox__section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20rem;
+    margin: 10px auto;
+    width: 20rem;
+}
+
+.section__title {
+    font-family: Staatliches;
+    font-size: 50px;
+    color: white;
+    text-shadow: 
+        0 0 5px rgb(209, 76, 218),
+		0 0 10px rgb(209, 76, 218),
+		0 0 20px rgb(209, 76, 218),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+
+.section__description {
+    font-family: HelveticaNeue1;
+    font-size: 25px;
+    color: white;
+}
+
+.newsbox__news {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px auto;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.news {
+    background-color: #66228b;
+    box-shadow: 0px 10px 20px black;
+    width: 25rem;
+    margin: 10px auto;
+}
+
+.news__image {
+    width: 100%;
+}
+
+.news__box {
+    padding: 20px;
+    text-align: center;
+}
+
+.news__title {
+    font-family: Staatliches;
+    font-size: 40px;
+    color: white;
+    text-shadow: 
+        0 0 5px rgb(209, 76, 218),
+		0 0 10px rgb(209, 76, 218),
+		0 0 20px rgb(209, 76, 218),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+
+.news__article {
+    font-family: HelveticaNeue1;
+    font-size: 20px;
+    color: white;
+}
+
+.episodesbox {
+    margin: 20px;
+}
+
+.episodesbox__section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.episodesbox__section__title {
+    font-family: Staatliches;
+    font-size: 70px;
+    color: white;
+    text-shadow: 
+        0 0 5px rgb(71, 131, 188),
+		0 0 10px rgb(75, 139, 207),
+		0 0 20px rgb(75, 139, 207),
+		0 0 40px rgb(28, 67, 104),
+		0 0 80px rgb(28, 67, 104),
+		0 0 90px rgb(28, 67, 104),
+		0 0 100px rgb(50, 57, 188),
+		0 0 140px rgb(50, 57, 188),
+		0 0 180px rgb(50, 57, 188);
+}
+
+.episodesbox__section__description {
+    font-family: HelveticaNeue1;
+    font-size: 30px;
+    color: white;
+}
+
+.episodes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.episodes__box {
+    background-color: #a125e351;
+    box-shadow: 10px 10px 30px rgb(36, 13, 58);
+    border-radius: 20px;
+    margin: auto;
+    width: 40rem;
+    height: auto;
+    margin: 20px auto;
+}
+
+.episodes__imagetitle {
+    width: 100%;
+}
+
+.episodes__image {
+    width: 100%;
+}
+
+.episodes__episodebox {
+    padding: 20px;
+    text-align: center;
+}
+
+.episodes__title {
+    font-family: Staatliches;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 
+        0 0 5px rgb(71, 131, 188),
+		0 0 10px rgb(75, 139, 207),
+		0 0 20px rgb(75, 139, 207),
+		0 0 40px rgb(28, 67, 104),
+		0 0 80px rgb(28, 67, 104),
+		0 0 90px rgb(28, 67, 104),
+		0 0 100px rgb(50, 57, 188),
+		0 0 140px rgb(50, 57, 188),
+		0 0 180px rgb(50, 57, 188);
+}
+
+.episodes__description {
+    font-family: HelveticaNeue1;
+    font-size: 25px;
+    color: white;
+}
+
+footer {
+    background-color: rgb(68, 66, 66);
+    display: flex;
+    width: auto;
+    justify-content: space-around;}
+
+.footer__socialmedia {
+    padding: 30px;
+    width: 50%;
+    text-align: center;
+}
+
+.footer__socialmediabox {
+    text-align: center;
+    width: 3rem;
+    margin: auto;
+}
+
+.socialmedia__items {
+    text-decoration: none;
+    color: white;
+    text-shadow: 5px 5px 0px black;
+    font-family: Staatliches;
+    font-size: 30px;
+}
+
+.footer__picture {
+    margin: auto;
+}
+
+.footer__image {
+    width: 100%;
+}
+
+.footer__nav {
+    padding: 30px;
+    width: 50%;
+    text-align: center;
+}
+
+.footer__nav__box {
+    margin: 10px 0px;
+}
+
+.footer__nav__title {
+    text-decoration: none;
+    color: white;
+    text-shadow: 5px 5px 0px black;
+    font-family: Staatliches;
+    font-size: 35px;
+}
+
+.footer__nav__link {
+    text-decoration: none;
+    font-family: HelveticaNeue1;
+    font-size: 30px;
+    color: white;
+}
+
+.grilla {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 30%);
+    gap: 2px;
+    margin: auto;
+}
+
+.div-gri__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.div-grid:nth-of-type(1) {
+    grid-column: 1 / 5;
+    grid-row: 1 / 4;
+}
+
+.div-grid:nth-of-type(2) {
+    grid-column: 5 / 8;
+    grid-row: 1 / 2;
+}
+
+.div-grid:nth-of-type(3) {
+    grid-column: 5 / 8;
+    grid-row: 2 / 4;
+}
+
+.div-grid:nth-of-type(4) {
+    grid-column: 8 / 13;
+    grid-row: 1 / 4;
+}
+
+
+/* -----------------------------NOSOTROS------------------------------ */
+
+
+.nosotrosbox__presentation {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 30px;
+    justify-content: space-between;
+}
+
+.nosotrosbox__div {
+    width: 50rem;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.nosotros__image {
+    width: 100%;
+}
+
+.nosotrospurple {
+    background-color: #6F2DBD;
+}
+
+.nosotros__description {
+    text-decoration: none;
+    color: white;
+    font-family: Staatliches;
+    font-size: 28px;
+    margin: auto;
+    padding: 30px;
+}
+
+.nosotros__video {
+    display: flex;
+}
+
+.nosotrosbox__videosection {
+    display: flex;
+    margin: 0px auto;
+    padding: 10px;
+    width: 75rem;
+}
+
+.nosotrosbox__video {
+    width: 100%;
+}
+
+.nosotros__bannerparallax {
+    background-image: url(../IMAGENES/bannerparallax.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10vh;
+}
+
+.usbox {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.usbox__title {
+    font-family: Staatliches;
+    font-size: 70px;
+    color: white;
+    text-shadow: 
+        0 0 5px rgb(209, 76, 218),
+		0 0 10px rgb(209, 76, 218),
+		0 0 20px rgb(209, 76, 218),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+
+.usbox__description {
+    font-family: HelveticaNeue1;
+    font-size: 30px;
+    color: white;
+    margin: 20px 0px;
+}
+
+.grilla__nosotros {
+    max-width: 1500px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.usbox__images {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 2px;
+    margin: auto;
+}
+
+.usbox__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.usbox__picture:nth-child(1) {
+    grid-column: 1 / 6;
+    grid-row: 1 / 5;
+}
+
+.usbox__picture:nth-child(2) {
+    grid-column: 1 / 7;
+    grid-row: 5 / 11;
+}
+
+.usbox__picture:nth-child(3) {
+    grid-column: 6 / 10;
+    grid-row: 1 / 5;
+}
+
+.usbox__picture:nth-child(5) {
+    grid-column: 7 / 13;
+    grid-row: 5 / 11;
+}
+
+.usbox__picture:nth-child(4) {
+    grid-column: 10 / 13;
+    grid-row: 1 / 5;
+}
+
+.usbox__contact {
+    margin: 30px;
+}
+
+.usbox__contact__title {
+    font-family: Staatliches;
+    font-size: 40px;
+    color: white;
+    text-shadow: 
+    0 0 5px rgb(71, 131, 188),
+    0 0 10px rgb(75, 139, 207),
+    0 0 20px rgb(75, 139, 207),
+    0 0 40px rgb(28, 67, 104),
+    0 0 80px rgb(28, 67, 104),
+    0 0 90px rgb(28, 67, 104),
+    0 0 100px rgb(50, 57, 188),
+    0 0 140px rgb(50, 57, 188),
+    0 0 180px rgb(50, 57, 188);
+    margin-bottom: 20px;
+}
+
+.usbox__contact__link {
+    background-color: #69686a;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: Staatliches;
+    font-size: 20px;
+}
+
+.usbox__contact__link:hover {
+    background-color: #66228b;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 800px) {
+    .grilla__nosotros {
+
+    }
+
+    .usbox__images {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(15, 1fr);
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .presentation__section {
+        background-image: url(../IMAGENES/euphoriapresentation.jpg);
+        background-position: center;
+    }
+    
+    .usbox__images {
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        gap: 2px;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .usbox__contact__title {
+        font-size: 20px;
+    }
+
+    .presentation {
+        font-size: 50px;
+        flex-direction: column;
+    }
+
+    .subtitlebox__subtitle {
+        font-size: 40px;
+    }
+
+    .subtitlebox__description {
+        font-size: 20px;
+        margin: 20px 0px
+    }
+
+    .personajesbox__image {
+        width: 80%;
+    }
+
+    .personajesbox {
+        padding: 0px;
+    }
+
+    .episodesbox {
+        margin: 10px;
+    }
+
+    .section__description {
+        font-size: 20px;
+    }
+
+    .episodesbox__section__title {
+        font-size: 50px;
+    }
+
+    .episodesbox__section__description {
+        font-size: 20px;
+    }
+
+    .episodes__title {
+        font-size: 23px;
+    }
+
+    .episodes__description {
+        font-size: 18px;
+    }
+
+    .footer__nav__title {
+        font-size: 20px;
+    }
+
+    .footer__nav__link {
+        font-size: 20px;
+    }
+
+    .footer__socialmedia {
+        width: 5rem;
+    }
+
+    .usbox {
+        margin: 10px;
+    }
+
+    .usbox__title {
+        font-size: 50px;
+    }
+
+    .usbox__description {
+        font-size: 20px;
+    }
+
+    .personajes__title {
+        margin: 10px 0px;
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .grilla {
+        width: 100%;
+        padding: 0px;
+    }
+}

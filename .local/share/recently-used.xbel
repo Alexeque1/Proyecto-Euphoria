@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/alexandersequera97/Euphoria/index.html/index.html" added="2022-05-06T02:33:45.582763Z" modified="2022-05-06T02:33:45.582803Z" visited="2022-05-06T02:33:45.582765Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-05-06T02:33:45.582768Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Groupy" added="2022-05-10T22:30:34.638225Z" modified="2022-05-10T22:30:34.638232Z" visited="2022-05-10T22:30:34.638227Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-05-10T22:30:34.638229Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Groupy/copiaseguridad.html" added="2022-05-12T02:10:47.153948Z" modified="2022-05-12T02:10:47.153964Z" visited="2022-05-12T02:10:47.153951Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-05-12T02:10:47.153957Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Euphoria/HTML/busca.html" added="2022-05-14T17:10:16.962968Z" modified="2022-05-14T17:10:16.963025Z" visited="2022-05-14T17:10:16.962970Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-05-14T17:10:16.962972Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Euphoria" added="2022-05-14T17:12:05.963325Z" modified="2022-05-23T21:05:21.257505Z" visited="2022-05-14T17:12:05.963327Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-05-23T21:05:21.257464Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Euphoria%20-%20Alexander%20Sequera" added="2022-05-22T17:14:19.599640Z" modified="2022-05-26T23:45:48.442295Z" visited="2022-05-22T17:14:19.599642Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-05-26T23:45:48.442271Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Prueba%20Euphoria" added="2022-05-27T02:57:40.151104Z" modified="2022-06-02T21:40:03.615220Z" visited="2022-05-27T02:57:40.151106Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-06-02T21:40:03.615215Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Desafio%20-%20Alexander%20Sequera" added="2022-06-02T21:38:46.391386Z" modified="2022-06-02T21:40:28.921486Z" visited="2022-06-02T21:38:46.391388Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-06-02T21:40:28.921434Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Prueba%20Euphoria/HTML/index.html" added="2022-06-02T21:39:24.980802Z" modified="2022-06-02T21:39:24.980855Z" visited="2022-06-02T21:39:24.980804Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-06-02T21:39:24.980808Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Prueba%20Euphoria/HTML/nosotros.html" added="2022-06-02T21:40:48.778395Z" modified="2022-06-02T21:40:48.778404Z" visited="2022-06-02T21:40:48.778397Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-06-02T21:40:48.778400Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Prueba%20Euphoria/FONTS/ffonts.net.htm" added="2022-06-02T21:41:20.560326Z" modified="2022-06-02T21:41:20.560336Z" visited="2022-06-02T21:41:20.560328Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-06-02T21:41:20.560331Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Prueba%20Euphoria/FONTS/ffonts.net.txt" added="2022-06-02T21:41:20.560355Z" modified="2022-06-02T21:41:20.560358Z" visited="2022-06-02T21:41:20.560355Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-06-02T21:41:20.560356Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Prueba%20Euphoria/FONTS/_H_HelveticaNeueInterface.ttf" added="2022-06-02T21:41:20.560369Z" modified="2022-06-02T21:41:20.560372Z" visited="2022-06-02T21:41:20.560369Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-06-02T21:41:20.560370Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Prueba%20Euphoria/FONTS/_H_HelveticaNeueInterface_0.ttf" added="2022-06-02T21:41:20.560381Z" modified="2022-06-02T21:41:20.560384Z" visited="2022-06-02T21:41:20.560381Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-06-02T21:41:20.560383Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Prueba%20Euphoria/FONTS/_H_HelveticaNeueInterface_1.ttf" added="2022-06-02T21:41:20.560396Z" modified="2022-06-02T21:41:20.560399Z" visited="2022-06-02T21:41:20.560396Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-06-02T21:41:20.560397Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Prueba%20Euphoria/FONTS/_H_HelveticaNeueInterface_2.ttf" added="2022-06-02T21:41:20.560410Z" modified="2022-06-02T21:41:20.560413Z" visited="2022-06-02T21:41:20.560410Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-06-02T21:41:20.560411Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Prueba%20Euphoria/FONTS/_H_HelveticaNeueInterface_3.ttf" added="2022-06-02T21:41:20.560423Z" modified="2022-06-02T21:41:20.560425Z" visited="2022-06-02T21:41:20.560423Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-06-02T21:41:20.560424Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Prueba%20Euphoria/FONTS/_H_HelveticaNeueInterface_4.ttf" added="2022-06-02T21:41:20.560438Z" modified="2022-06-02T21:41:20.560442Z" visited="2022-06-02T21:41:20.560439Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-06-02T21:41:20.560440Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Prueba%20Euphoria/FONTS/install-a-new-font.txt" added="2022-06-02T21:41:20.560452Z" modified="2022-06-02T21:41:20.560455Z" visited="2022-06-02T21:41:20.560452Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-06-02T21:41:20.560453Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alexandersequera97/Desafio-Alexander-Sequera" added="2022-06-03T02:05:47.026741Z" modified="2022-06-03T02:05:47.026774Z" visited="2022-06-03T02:05:47.026742Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-06-03T02:05:47.026745Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

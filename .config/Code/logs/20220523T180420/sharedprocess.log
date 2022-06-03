@@ -1,0 +1,14 @@
+[2022-05-23 18:04:35.870] [sharedprocess] [info] Starting worker process with pid 434 (type: fileWatcher, window: 1).
+[2022-05-23 18:04:36.512] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-05-23 18:04:39.534] [sharedprocess] [info] Getting Manifest... vscode-icons-team.vscode-icons
+[2022-05-23 18:04:40.333] [sharedprocess] [info] Installing extension: vscode-icons-team.vscode-icons
+[2022-05-23 18:04:43.138] [sharedprocess] [info] Downloaded extension: vscode-icons-team.vscode-icons /home/alexandersequera97/.config/Code/CachedExtensionVSIXs/vscode-icons-team.vscode-icons-11.12.0
+[2022-05-23 18:04:48.801] [sharedprocess] [info] Extracted extension to /home/alexandersequera97/.vscode/extensions/.069d826a-4c59-40dd-b1e8-6dcc97ccf2cd: vscode-icons-team.vscode-icons
+[2022-05-23 18:04:48.885] [sharedprocess] [info] Renamed to /home/alexandersequera97/.vscode/extensions/vscode-icons-team.vscode-icons-11.12.0
+[2022-05-23 18:04:48.903] [sharedprocess] [info] Extracting completed. vscode-icons-team.vscode-icons
+[2022-05-23 18:04:48.938] [sharedprocess] [info] Extension installed successfully: vscode-icons-team.vscode-icons
+[2022-05-23 18:05:09.199] [sharedprocess] [info] Worker process with pid 434 terminated normally (type: fileWatcher, window: 1).
+[2022-05-23 18:05:13.385] [sharedprocess] [info] Starting worker process with pid 559 (type: fileWatcher, window: 1).
+[2022-05-23 18:05:22.885] [sharedprocess] [info] Worker process with pid 559 terminated normally (type: fileWatcher, window: 1).
+[2022-05-23 18:05:26.508] [sharedprocess] [info] Starting worker process with pid 770 (type: fileWatcher, window: 1).
+[2022-05-23 23:18:02.354] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

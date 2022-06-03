@@ -1,0 +1,29 @@
+[2022-06-02 23:04:59.195] [exthost] [info] Extension host with pid 8753 started
+[2022-06-02 23:05:01.660] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-02 23:05:01.726] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-02 23:05:01.808] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-02 23:05:01.928] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-06-02 23:05:03.203] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-02 23:05:03.788] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-02 23:05:10.537] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 23:05:10.611] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 23:05:13.996] [exthost] [info] Eager extensions activated
+[2022-06-02 23:05:47.421] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-06-02 23:05:47.503] [exthost] [info] Extension host with pid 8753 exiting with code 0
+[2022-06-02 23:06:04.933] [exthost] [info] Extension host with pid 8823 started
+[2022-06-02 23:06:04.934] [exthost] [info] Skipping acquiring lock for /home/alexandersequera97/.config/Code/User/workspaceStorage/c3e33e80748ea7039244c0820696582f.
+[2022-06-02 23:06:06.354] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-02 23:06:06.378] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-02 23:06:06.457] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-02 23:06:06.521] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-06-02 23:06:09.667] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-02 23:06:09.822] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-02 23:06:15.534] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 23:06:15.577] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 23:06:18.024] [exthost] [info] Eager extensions activated
+[2022-06-02 23:15:44.089] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-06-02 23:15:47.648] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2957
+[2022-06-02 23:19:26.628] [exthost] [info] ExtensionService#_doActivateExtension vscode.image-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+[2022-06-02 23:20:35.397] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-06-02 23:20:35.733] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-06-02 23:20:41.522] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features

@@ -1,0 +1,15 @@
+[2022-06-01 21:26:58.310] [exthost] [info] Extension host with pid 5041 started
+[2022-06-01 21:26:58.311] [exthost] [info] Skipping acquiring lock for /home/alexandersequera97/.config/Code/User/workspaceStorage/654f5cddacbb5ebdb8b629c5495a5e94.
+[2022-06-01 21:27:00.272] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-06-01 21:27:00.420] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-01 21:27:00.446] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-01 21:27:00.477] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-01 21:27:00.513] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-06-01 21:27:02.338] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-01 21:27:02.437] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-01 21:27:09.539] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-01 21:27:09.623] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-01 21:27:19.627] [exthost] [info] Eager extensions activated
+[2022-06-01 21:28:16.946] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-06-01 22:31:15.548] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-06-01 22:31:15.779] [exthost] [info] Extension host with pid 5041 exiting with code 0

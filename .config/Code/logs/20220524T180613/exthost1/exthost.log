@@ -1,0 +1,18 @@
+[2022-05-24 18:06:31.318] [exthost] [info] Extension host with pid 382 started
+[2022-05-24 18:06:31.318] [exthost] [info] Skipping acquiring lock for /home/alexandersequera97/.config/Code/User/workspaceStorage/5a389ac6cd104a465d1b1a9044f023ff.
+[2022-05-24 18:06:33.313] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-05-24 18:06:33.445] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-05-24 18:06:33.476] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-05-24 18:06:33.507] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-05-24 18:06:33.541] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-05-24 18:06:34.675] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-05-24 18:06:34.806] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-05-24 18:06:42.370] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-24 18:06:42.524] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-24 18:07:08.556] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-05-24 18:07:12.755] [exthost] [info] Eager extensions activated
+[2022-05-24 23:54:09.125] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-05-24 23:54:09.409] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-05-24 23:54:10.000] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-05-25 09:02:10.333] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-05-25 09:02:11.005] [exthost] [info] Extension host with pid 382 exiting with code 0

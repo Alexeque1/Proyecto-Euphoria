@@ -1,0 +1,29 @@
+[2022-05-25 10:15:15.785] [main] [info] window#load: attempt to load window (id: 1)
+[2022-05-25 10:15:15.880] [main] [info] update#setState idle
+[2022-05-25 10:15:16.539] [main] [info] ExtensionHostStarterWorker created
+[2022-05-25 10:15:23.344] [main] [info] window#load: window reported ready (id: 1)
+[2022-05-25 10:15:25.848] [main] [info] Starting extension host with pid 376 (fork() took 182 ms).
+[2022-05-25 10:15:25.849] [main] [info] ExtensionHostStarterWorker.start() took 247 ms.
+[2022-05-25 10:15:46.389] [main] [info] update#setState checking for updates
+[2022-05-25 10:15:47.394] [main] [info] update#setState available for download
+[2022-05-25 22:02:20.278] [main] [info] window#load: attempt to load window (id: 1)
+[2022-05-25 22:02:21.009] [main] [info] Extension host with pid 376 exited with code: 0, signal: null.
+[2022-05-25 22:02:25.665] [main] [info] window#load: window reported ready (id: 1)
+[2022-05-25 22:02:28.353] [main] [info] Starting extension host with pid 2313 (fork() took 347 ms).
+[2022-05-25 22:02:28.367] [main] [info] ExtensionHostStarterWorker.start() took 417 ms.
+[2022-05-25 22:02:39.288] [main] [error] [DialogMainService]: file open dialog is already or will be showing for the window with the same configuration
+[2022-05-26 20:45:48.726] [main] [info] window#load: attempt to load window (id: 1)
+[2022-05-26 20:45:48.972] [main] [info] Extension host with pid 2313 exited with code: 0, signal: null.
+[2022-05-26 20:45:51.017] [main] [info] window#load: window reported ready (id: 1)
+[2022-05-26 20:45:52.434] [main] [info] Starting extension host with pid 4258 (fork() took 213 ms).
+[2022-05-26 20:45:52.434] [main] [info] ExtensionHostStarterWorker.start() took 379 ms.
+[2022-05-26 23:57:29.020] [main] [info] window#load: attempt to load window (id: 1)
+[2022-05-26 23:57:29.179] [main] [info] Extension host with pid 4258 exited with code: 0, signal: null.
+[2022-05-26 23:57:31.707] [main] [info] window#load: window reported ready (id: 1)
+[2022-05-26 23:57:32.859] [main] [info] Starting extension host with pid 4756 (fork() took 69 ms).
+[2022-05-26 23:57:32.867] [main] [info] ExtensionHostStarterWorker.start() took 301 ms.
+[2022-05-26 23:57:40.953] [main] [info] window#load: attempt to load window (id: 1)
+[2022-05-26 23:57:41.553] [main] [info] Extension host with pid 4756 exited with code: 0, signal: null.
+[2022-05-26 23:57:42.912] [main] [info] window#load: window reported ready (id: 1)
+[2022-05-26 23:57:44.234] [main] [info] Starting extension host with pid 4788 (fork() took 85 ms).
+[2022-05-26 23:57:44.234] [main] [info] ExtensionHostStarterWorker.start() took 95 ms.

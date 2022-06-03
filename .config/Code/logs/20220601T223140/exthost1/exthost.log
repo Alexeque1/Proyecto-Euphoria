@@ -1,0 +1,78 @@
+[2022-06-01 22:32:01.962] [exthost] [info] Extension host with pid 5390 started
+[2022-06-01 22:32:01.962] [exthost] [info] Skipping acquiring lock for /home/alexandersequera97/.config/Code/User/workspaceStorage/654f5cddacbb5ebdb8b629c5495a5e94.
+[2022-06-01 22:32:03.825] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-06-01 22:32:04.167] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-01 22:32:04.207] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-01 22:32:04.222] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-01 22:32:04.315] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-06-01 22:32:07.967] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-01 22:32:08.162] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-01 22:32:14.497] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-01 22:32:14.553] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-01 22:32:22.726] [exthost] [info] Eager extensions activated
+[2022-06-01 22:34:50.311] [exthost] [info] ExtensionService#_doActivateExtension vscode.grunt, startup: false, activationEvent: 'onTaskType:grunt'
+[2022-06-01 22:34:50.347] [exthost] [info] ExtensionService#_doActivateExtension vscode.gulp, startup: false, activationEvent: 'onTaskType:gulp'
+[2022-06-01 22:34:50.418] [exthost] [info] ExtensionService#_doActivateExtension vscode.jake, startup: false, activationEvent: 'onTaskType:jake'
+[2022-06-01 22:34:50.506] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTaskType:npm'
+[2022-06-01 22:34:50.732] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onTaskType:typescript'
+[2022-06-01 22:36:20.828] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-01 22:36:21.056] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-01 22:45:21.123] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-06-02 13:14:48.251] [exthost] [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'
+[2022-06-02 18:38:11.195] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-06-02 18:38:12.206] [exthost] [info] Extension host with pid 5390 exiting with code 0
+[2022-06-02 18:38:28.127] [exthost] [info] Extension host with pid 6804 started
+[2022-06-02 18:38:28.710] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-02 18:38:28.750] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-02 18:38:28.789] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-02 18:38:28.875] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-06-02 18:38:30.158] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-02 18:38:30.322] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-02 18:38:35.878] [exthost] [info] Eager extensions activated
+[2022-06-02 18:38:35.890] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 18:38:35.931] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 18:38:46.789] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-06-02 18:38:46.801] [exthost] [info] Extension host with pid 6804 exiting with code 0
+[2022-06-02 18:38:56.211] [exthost] [info] Extension host with pid 6841 started
+[2022-06-02 18:38:56.211] [exthost] [info] Skipping acquiring lock for /home/alexandersequera97/.config/Code/User/workspaceStorage/7e7b4adf618fbb0d2de1e75703277df9.
+[2022-06-02 18:38:58.228] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-02 18:38:58.253] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-02 18:38:58.292] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-02 18:38:58.370] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-06-02 18:39:00.481] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-02 18:39:00.670] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-02 18:39:07.095] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 18:39:07.146] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 18:39:07.157] [exthost] [info] Eager extensions activated
+[2022-06-02 18:39:26.844] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-06-02 18:40:04.192] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-06-02 18:40:04.285] [exthost] [info] Extension host with pid 6841 exiting with code 0
+[2022-06-02 18:40:14.746] [exthost] [info] Extension host with pid 6911 started
+[2022-06-02 18:40:14.746] [exthost] [info] Skipping acquiring lock for /home/alexandersequera97/.config/Code/User/workspaceStorage/654f5cddacbb5ebdb8b629c5495a5e94.
+[2022-06-02 18:40:15.738] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-06-02 18:40:16.051] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-06-02 18:40:16.217] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-02 18:40:16.249] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-02 18:40:16.284] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-02 18:40:16.322] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-06-02 18:40:17.990] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-02 18:40:18.322] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-02 18:40:25.318] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 18:40:25.383] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 18:40:29.478] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-06-02 18:40:29.536] [exthost] [info] Extension host with pid 6911 exiting with code 0
+[2022-06-02 18:40:38.518] [exthost] [info] Extension host with pid 6967 started
+[2022-06-02 18:40:38.518] [exthost] [info] Skipping acquiring lock for /home/alexandersequera97/.config/Code/User/workspaceStorage/7e7b4adf618fbb0d2de1e75703277df9.
+[2022-06-02 18:40:40.008] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-06-02 18:40:40.375] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-02 18:40:40.426] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-02 18:40:40.525] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-02 18:40:40.547] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-06-02 18:40:43.106] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-02 18:40:43.298] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-02 18:40:49.808] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 18:40:49.884] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-02 18:40:53.816] [exthost] [info] Eager extensions activated
+[2022-06-02 18:45:23.956] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-06-02 23:04:05.044] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-06-02 23:04:05.376] [exthost] [info] Extension host with pid 6967 exiting with code 0

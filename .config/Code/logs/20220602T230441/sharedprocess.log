@@ -1,0 +1,4 @@
+[2022-06-02 23:05:00.482] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-06-02 23:05:04.608] [sharedprocess] [info] Starting worker process with pid 8800 (type: fileWatcher, window: 1).
+[2022-06-02 23:05:47.532] [sharedprocess] [info] Worker process with pid 8800 terminated normally (type: fileWatcher, window: 1).
+[2022-06-02 23:05:56.867] [sharedprocess] [info] Starting worker process with pid 8822 (type: fileWatcher, window: 1).

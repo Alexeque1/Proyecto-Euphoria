@@ -1,0 +1,18 @@
+[2022-05-23 18:04:22.043] [main] [info] window#load: attempt to load window (id: 1)
+[2022-05-23 18:04:22.100] [main] [info] update#setState idle
+[2022-05-23 18:04:23.056] [main] [info] ExtensionHostStarterWorker created
+[2022-05-23 18:04:27.763] [main] [info] window#load: window reported ready (id: 1)
+[2022-05-23 18:04:28.830] [main] [info] Starting extension host with pid 383 (fork() took 71 ms).
+[2022-05-23 18:04:28.830] [main] [info] ExtensionHostStarterWorker.start() took 77 ms.
+[2022-05-23 18:04:52.105] [main] [info] update#setState checking for updates
+[2022-05-23 18:04:52.132] [main] [info] update#setState available for download
+[2022-05-23 18:05:09.144] [main] [info] window#load: attempt to load window (id: 1)
+[2022-05-23 18:05:09.259] [main] [info] Extension host with pid 383 exited with code: 0, signal: null.
+[2022-05-23 18:05:11.582] [main] [info] window#load: window reported ready (id: 1)
+[2022-05-23 18:05:12.986] [main] [info] Starting extension host with pid 557 (fork() took 97 ms).
+[2022-05-23 18:05:12.987] [main] [info] ExtensionHostStarterWorker.start() took 209 ms.
+[2022-05-23 18:05:22.865] [main] [info] window#load: attempt to load window (id: 1)
+[2022-05-23 18:05:22.891] [main] [info] Extension host with pid 557 exited with code: 0, signal: null.
+[2022-05-23 18:05:24.928] [main] [info] window#load: window reported ready (id: 1)
+[2022-05-23 18:05:25.549] [main] [info] Starting extension host with pid 758 (fork() took 77 ms).
+[2022-05-23 18:05:25.549] [main] [info] ExtensionHostStarterWorker.start() took 79 ms.

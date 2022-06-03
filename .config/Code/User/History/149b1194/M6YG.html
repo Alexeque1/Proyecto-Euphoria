@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupy</title>
+</head>
+
+<body>
+    <header>
+        <img src="IMAGENES/logo.png" alt="">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="busca.html">Busca</a>
+                </li>
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="registro.html">Registro</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <section>
+        <div>
+            <div>
+                <h1>¡Cuentanos qué tienes en mente!</h1>
+                <p>
+                    Ingresa tus datos en la siguiente encuesta. Recuerda colocar tu informacion correctamente.
+                </p>
+            </div>
+            <div>
+                <h3>Datos</h3>
+                <form action="formulario.php" method="post">
+                    <div>
+                        <label for="name">Nombre y Apellido</label>
+                        <input type="text" name="name" placeholder="Nombre">
+                    </div>
+                    <div>
+                        <label for="email">Dejanos tu e-mail</label>
+                        <input type="email" name="email" placeholder="E-mail">
+                    </div>
+                    <div>
+                        <div>
+                            <label for="edad">¿Cual es tu edad?</label>
+                            <input type="text" name="edad" placeholder="Edad (Solo numeros)">
+                        </div>
+                        <div>
+                        <label for="group">¿Cuantas personas tiene tu grupo?</label>
+                        <input type="number" name="group" placeholder="Grupo (Solo numeros)">\
+                        </div>
+                    </div>
+                    <div>
+                        <textarea placeholder="Descripcion de tu aventura"></textarea>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <h2>Sumaremos tu aventura a nuestra base de datos</h2>
+                <p>Estaremos enviandote un correo lo mas pronto posible. Una vez recibido el correo proseguiremos con el proceso 
+                    de publicacion. ¡Muchas gracias!
+                </p>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="http://www.instagram.com">Instagram</a>
+            <a href="http://www.facebook.com">Facebook</a>
+            <a href="http://www.twitter.com">Twitter</a>
+        </div>
+        <div>
+            <div>
+                <h3>Contacto</h3>
+                <a href="#">
+                    <h6>contacto@gmail.com</h6>
+                </a>
+                <a href="https://wa.me/1123536589?text">
+                    <h6>1123536589</h6>
+                </a>
+            </div>
+
+            <div>
+                <h3>Info</h3>
+                <a href="busca.html">
+                    <h6>Busca</h6>
+                </a>
+                <a href="nosotros.html">
+                    <h6>Nosotros</h6>
+                </a>
+                <a href="registro.html">
+                    <h6>Registrate</h6>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

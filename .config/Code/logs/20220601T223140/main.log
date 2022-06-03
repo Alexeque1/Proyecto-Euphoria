@@ -1,0 +1,30 @@
+[2022-06-01 22:31:41.422] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-01 22:31:41.615] [main] [info] update#setState idle
+[2022-06-01 22:31:42.455] [main] [info] ExtensionHostStarterWorker created
+[2022-06-01 22:31:47.806] [main] [info] window#load: window reported ready (id: 1)
+[2022-06-01 22:31:49.449] [main] [info] Starting extension host with pid 5390 (fork() took 336 ms).
+[2022-06-01 22:31:49.452] [main] [info] ExtensionHostStarterWorker.start() took 415 ms.
+[2022-06-01 22:32:12.088] [main] [info] update#setState checking for updates
+[2022-06-01 22:32:12.262] [main] [info] update#setState available for download
+[2022-06-02 18:38:11.164] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-02 18:38:12.332] [main] [info] Extension host with pid 5390 exited with code: 0, signal: null.
+[2022-06-02 18:38:18.181] [main] [info] window#load: window reported ready (id: 1)
+[2022-06-02 18:38:20.020] [main] [info] Starting extension host with pid 6804 (fork() took 212 ms).
+[2022-06-02 18:38:20.029] [main] [info] ExtensionHostStarterWorker.start() took 240 ms.
+[2022-06-02 18:38:46.792] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-02 18:38:46.889] [main] [info] Extension host with pid 6804 exited with code: 0, signal: null.
+[2022-06-02 18:38:49.561] [main] [info] window#load: window reported ready (id: 1)
+[2022-06-02 18:38:52.303] [main] [info] Starting extension host with pid 6841 (fork() took 398 ms).
+[2022-06-02 18:38:52.315] [main] [info] ExtensionHostStarterWorker.start() took 489 ms.
+[2022-06-02 18:40:04.171] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-02 18:40:04.350] [main] [info] Extension host with pid 6841 exited with code: 0, signal: null.
+[2022-06-02 18:40:07.927] [main] [info] window#load: window reported ready (id: 1)
+[2022-06-02 18:40:08.549] [main] [info] Starting extension host with pid 6911 (fork() took 65 ms).
+[2022-06-02 18:40:08.560] [main] [info] ExtensionHostStarterWorker.start() took 99 ms.
+[2022-06-02 18:40:29.474] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-02 18:40:29.612] [main] [info] Extension host with pid 6911 exited with code: 0, signal: null.
+[2022-06-02 18:40:31.732] [main] [info] window#load: window reported ready (id: 1)
+[2022-06-02 18:40:32.223] [main] [info] Starting extension host with pid 6967 (fork() took 75 ms).
+[2022-06-02 18:40:32.231] [main] [info] ExtensionHostStarterWorker.start() took 129 ms.
+[2022-06-02 23:04:05.366] [main] [info] Waiting for extension host with pid 6967 to exit.
+[2022-06-02 23:04:05.779] [main] [info] Extension host with pid 6967 exited with code: 0, signal: null.
