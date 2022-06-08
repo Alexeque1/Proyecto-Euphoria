@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/euphoria.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eupohoria - Conacto</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar__nav">
+            <picture class="navbar__logo">
+                <img class="navbar__image" src="../IMAGENES/logo.png" alt="Logo">
+            </picture>
+            <ul class="navbar__list">
+                <li class="navbar__item">
+                    <a class="navbar__link" href="index.html">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="noticias.html">Noticias</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="personajes.html">Personajes</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+    <section id="title" class="presentation__section">
+        <div class="presentation">
+            <h1 class="presentation__title">Contacto</h1>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="formulariobox">
+            <div class="formulariobox__titulo formulariobox__div">
+                <h2 class="formulario__titulo">Contactanos</h2>
+                <p class="formulario__description">Queremos saber tu opinion. Envianos un mensaje para saber que piensas de nosotros.
+                    Tambien puedes consultar sobre como ingresar a nuestro club. Te responderemos a la brevedad.
+                </p>
+            </div>
+            <div class="formulariobox__formulario formulariobox__div">
+                <form class="formulario" method="get" action="formulario.php">
+                    <div class="formulario__item">
+                        <input class="formulario__input name__lastname__form" placeholder="Nombre y Apellido" type="text">
+                    </div>
+                    <div class="formulario__item">
+                        <input class="formulario__input email__form" placeholder="Email" type="email">
+                    </div>
+                    <div class="formulario__item age__country">
+                        <div class="formulario__itemsecond">
+                            <input class="formulario__input age__form" type="number" placeholder="Edad">
+                        </div>
+                        <div class="formulario__itemsecond">
+                            <input class="formulario__input country__form" type="text" placeholder="Pais">
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="formulario__item">
+                        <textarea class="formulario__input comment" placeholder="Escribe tu consulta"></textarea>
+                    </div>
+                    
+                    <div class="formulario__button">
+                        <button class="formulario__submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="footer__socialmedia">
+            <div class="footer__socialmediabox">
+                <a class="socialmedia__items" href="http://www.instagram.com">Instagram</a>
+                    <picture class="footer__picture">
+                        <img class="footer__image" src="../IMAGENES/instagram.png">
+                    </picture>
+                </a>
+            </div>
+            <div class="footer__socialmediabox">
+                <a class="socialmedia__items" href="http://www.instagram.com">Facebook</a>
+                    <picture class="footer__picture">
+                        <img class="footer__image" src="../IMAGENES/facebook.png">
+                    </picture>
+                </a>
+            </div>
+            <div class="footer__socialmediabox">
+                <a class="socialmedia__items" href="http://www.instagram.com">Twitter</a>
+                    <picture class="footer__picture">
+                        <img class="footer__image" src="../IMAGENES/twitter.png">
+                    </picture>
+                </a>
+            </div>
+        </div>
+        <div class="footer__nav">
+            <div class="footer__nav__box">
+                <h3 class="footer__nav__title">Contacto</h3>
+                <a class="footer__nav__link" href="#">
+                    <h6>contacto@gmail.com</h6>
+                </a>
+                <a class="footer__nav__link" href="https://wa.me/1123536589?text">
+                    <h6>1123536589</h6>
+                </a>
+            </div>
+
+            <div class="footer__nav__box">
+                <h3 class="footer__nav__title">Info</h3>
+                <a class="footer__nav__link website" href="index.html">
+                    <h6 >Home</h6>
+                </a>
+                <a class="footer__nav__link website" href="noticias.html">
+                    <h6>Noticias</h6>
+                </a>
+                <a class="footer__nav__link website" href="personajes.html">
+                    <h6>Personajes</h6>
+                </a>
+                <a class="footer__nav__link website" href="contacto.html">
+                    <h6>Contacto</h6>
+                </a>
+            </div>
+        </div>
+    </footer>
+    </main>
+</body>
+</html>
