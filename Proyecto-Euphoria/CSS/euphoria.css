@@ -41,6 +41,7 @@ header {
     width: 100%;
     margin: auto;
 }
+ 
 
 .navbar__list {
     display: flex;
@@ -58,6 +59,20 @@ header {
     margin: 0.9rem;
 }
 
+.navbar__link:hover {
+    background-color: rgb(122, 18, 122);
+    box-shadow: 
+        0 0 5px rgb(209, 76, 218),
+		0 0 10px rgb(209, 76, 218),
+		0 0 20px rgb(209, 76, 218),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+
 .presentation__section {
     display: flex;
     background-image: url(../IMAGENES/euphoriabanner.png);
@@ -73,7 +88,24 @@ header {
     font-family: Staatliches;
     font-size: 70px;
     color: white;
-    text-shadow: 
+    text-align: center;
+    animation-name: el__logo;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 1.5s;
+ }
+ 
+ @keyframes el__logo {
+     0% { 
+        text-shadow: 
+        0 0 5px rgb(209, 76, 218),
+		0 0 10px rgb(209, 76, 218),
+		0 0 20px rgb(209, 76, 218),
+		0 0 40px rgba(38,104,127,1),
+     }
+     
+     50% {
+        text-shadow: 
         0 0 5px rgb(209, 76, 218),
 		0 0 10px rgb(209, 76, 218),
 		0 0 20px rgb(209, 76, 218),
@@ -83,8 +115,8 @@ header {
 		0 0 100px rgba(38,104,127,1),
 		0 0 140px rgba(38,104,127,1),
 		0 0 180px rgba(38,104,127,1);
-    text-align: center;
-}
+     }
+  }
 
 .subtitlebox {
     display: flex;
@@ -143,6 +175,21 @@ header {
 		0 0 100px rgba(38,104,127,1),
 		0 0 140px rgba(38,104,127,1),
 		0 0 180px rgba(38,104,127,1);
+    transition: transform 1s;
+}
+
+.subtitlebox__phrase:hover {
+    transform: scale(2,2);
+    text-shadow: 
+        0 0 20px rgb(209, 76, 218),
+		0 0 30px rgb(209, 76, 218),
+		0 0 40px rgb(209, 76, 218),
+		0 0 60px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 110px rgba(38,104,127,1),
+		0 0 130px rgba(38,104,127,1),
+		0 0 160px rgba(38,104,127,1),
+		0 0 200px rgba(38,104,127,1);
 }
 
 .parallax {
@@ -176,6 +223,11 @@ header {
 
 .personajesbox__images {
     width: 15%;
+    transition: transform 1s;
+}
+
+.personajesbox__images:hover {
+    transform: scale(1.2,1.2);
 }
 
 .personajes {
@@ -653,7 +705,7 @@ footer {
 
 .usbox__description {
     font-family: HelveticaNeue1;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     margin: 20px 0px;
 }
@@ -775,6 +827,10 @@ footer {
     margin: 10px auto;
 }
 
+.personajes__image:hover {
+    box-shadow: 10px 10px 60px rgb(36, 13, 58);
+}
+
 .personajes__image {
     width: 100%;
     border-radius: 5px;
@@ -833,6 +889,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
+    margin: 30px 0px;
 }
 
 .personajesbox__link {
@@ -1060,14 +1117,24 @@ footer {
         background-image: url(../IMAGENES/euphoriapresentation.jpg);
         background-position: center;
     }
+
+    .newsbox__news {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .nosotrosbox__presentation {
+        margin: 15px 10px;
+    }
+
+    .nosotros__description {
+        font-size: 25px;
+        padding: 5px;
+    }
     
     .newsbox {
         padding: 0px;
         justify-content: center;
-    }
-
-    .newsbox__news {
-        width: 100%;
     }
 
     .news {
@@ -1186,7 +1253,7 @@ footer {
     }
 
     .nosotros__description {
-        font-size: 20px;
+        font-size: 25px;
         padding: 10px;
     }
 
