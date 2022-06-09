@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'HelveticaNeue1';
-    src: url('../FONTS/_H_HelveticaNeueInterface_3.ttf') format('truetype');
+    src: url('../fonts/_H_HelveticaNeueInterface_3.ttf') format('truetype');
     font-style: bold;
     font-weight: normal;
   }
@@ -60,7 +60,7 @@ header {
 
 .presentation__section {
     display: flex;
-    background-image: url(../IMAGENES/euphoriabanner.png);
+    background-image: url(../img/euphoriabanner.png);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -73,18 +73,30 @@ header {
     font-family: Staatliches;
     font-size: 70px;
     color: white;
-    text-shadow: 
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: titleglow;
+    animation-iteration-count: infinite;
+}
+
+@keyframes titleglow {
+    0% {
+        text-shadow: 
         0 0 5px rgb(209, 76, 218),
 		0 0 10px rgb(209, 76, 218),
 		0 0 20px rgb(209, 76, 218),
-		0 0 40px rgba(38,104,127,1),
+    }
+    50% {
+        text-shadow:
+        0 0 40px rgba(38,104,127,1),
 		0 0 80px rgba(38,104,127,1),
 		0 0 90px rgba(38,104,127,1),
 		0 0 100px rgba(38,104,127,1),
 		0 0 140px rgba(38,104,127,1),
 		0 0 180px rgba(38,104,127,1);
-    text-align: center;
-}
+    }
+ }
+ 
 
 .subtitlebox {
     display: flex;
@@ -143,10 +155,15 @@ header {
 		0 0 100px rgba(38,104,127,1),
 		0 0 140px rgba(38,104,127,1),
 		0 0 180px rgba(38,104,127,1);
+    transition: transform 2s;
+}
+
+.subtitlebox__phrase:hover {
+    transform: scale(1.5,1.5);
 }
 
 .parallax {
-    background-image: url(../IMAGENES/banner.jpg);
+    background-image: url(../img/banner.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,6 +193,11 @@ header {
 
 .personajesbox__images {
     width: 15%;
+    transition: transform 1s;
+}
+
+.personajesbox__images:hover {
+    transform: scale(1.1,1.1);
 }
 
 .personajes {
@@ -621,7 +643,7 @@ footer {
 }
 
 .nosotros__bannerparallax {
-    background-image: url(../IMAGENES/bannerparallax.png);
+    background-image: url(../img/bannerparallax.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -773,6 +795,10 @@ footer {
 .personajes__picture {
     width: 18%;
     margin: 10px auto;
+}
+
+.personajes__picture:hover {
+    box-shadow: 10px 10px 60px rgb(36, 13, 58);
 }
 
 .personajes__image {
@@ -1054,7 +1080,7 @@ footer {
 @media screen and (max-width: 550px) {
 
     .presentation__section {
-        background-image: url(../IMAGENES/euphoriapresentation.jpg);
+        background-image: url(../img/euphoriapresentation.jpg);
         background-position: center;
     }
     
