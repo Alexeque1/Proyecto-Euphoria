@@ -21,9 +21,12 @@ body {
   
 header {
     background: linear-gradient(to right, #6F2DBD, #a165e6, #6F2DBD);
-    position: fixed;
     height: 7rem;
     display: flex;
+}
+
+p {
+    line-height: normal;
 }
 
 .navbar__nav {
@@ -58,6 +61,11 @@ header {
     margin: 0.9rem;
 }
 
+.navbar__link:hover {
+    background-color: rgb(97, 30, 107);
+    color: white;
+}
+
 .presentation__section {
     display: flex;
     background-image: url(../img/euphoriabanner.png);
@@ -71,12 +79,18 @@ header {
     display: flex;
     margin: auto;
     font-family: Staatliches;
-    font-size: 70px;
     color: white;
     text-align: center;
     animation-duration: 2s;
     animation-name: titleglow;
     animation-iteration-count: infinite;
+}
+
+.presentation h1 {
+    font-size: 100px;
+    font-family: Staatliches;
+    color: white;
+    font-weight: bold;
 }
 
 @keyframes titleglow {
@@ -118,9 +132,11 @@ header {
     width: 100%;
 }
 
-.subtitlebox__subtitle {
+
+.subtitle {
     font-family: Staatliches;
     font-size: 60px;
+    font-weight: bold;
     color: white;
     text-shadow: 
         0 0 5px rgb(209, 76, 218),
@@ -155,11 +171,6 @@ header {
 		0 0 100px rgba(38,104,127,1),
 		0 0 140px rgba(38,104,127,1),
 		0 0 180px rgba(38,104,127,1);
-    transition: transform 2s;
-}
-
-.subtitlebox__phrase:hover {
-    transform: scale(1.5,1.5);
 }
 
 .parallax {
@@ -234,6 +245,7 @@ header {
 .section__title {
     font-family: Staatliches;
     font-size: 50px;
+    font-weight: bolder;
     color: white;
     text-shadow: 
         0 0 5px rgb(209, 76, 218),
@@ -281,6 +293,7 @@ header {
 .news__title {
     font-family: Staatliches;
     font-size: 40px;
+    font-weight: bolder;
     color: white;
     text-shadow: 
         0 0 5px rgb(209, 76, 218),
@@ -314,6 +327,7 @@ header {
 .episodesbox__section__title {
     font-family: Staatliches;
     font-size: 70px;
+    font-weight: bolder;
     color: white;
     text-shadow: 
         0 0 5px rgb(71, 131, 188),
@@ -365,6 +379,7 @@ header {
 .episodes__title {
     font-family: Staatliches;
     font-size: 2.5rem;
+    font-weight: bolder;
     color: white;
     text-shadow: 
         0 0 5px rgb(71, 131, 188),
@@ -443,6 +458,24 @@ footer {
     color: white;
 }
 
+.parallaxwidth {
+    width: 80%;
+    margin: auto;
+}
+
+#novedades {
+    margin: 20px 0px;
+}
+
+.carousel {
+    width: 70%;
+    margin: auto;
+}
+
+.carousel__image{
+    width: 100%;
+}
+
 .grilla {
     max-width: 1200px;
     margin: 0 auto;
@@ -500,6 +533,7 @@ footer {
 .newsbox__titlesection__title {
     font-family: Staatliches;
     font-size: 70px;
+    font-weight: bolder;
     color: white;
     text-shadow: 
         0 0 5px rgb(209, 76, 218),
@@ -545,6 +579,7 @@ footer {
 .noticias__news__title {
     font-family: Staatliches;
     font-size: 40px;
+    font-weight: bolder;
     color: white;
     text-shadow: 
     0 0 5px rgb(209, 76, 218),
@@ -592,6 +627,14 @@ footer {
 .noticias__newsbox__link:hover {
     background-color: #66228b;
     box-shadow: none;
+}
+
+.nav__news {
+    display: flex;
+}
+
+.nav__newspages {
+    margin: auto;
 }
 
 /* -----------------------------NOSOTROS------------------------------ */
@@ -660,6 +703,7 @@ footer {
 .usbox__title {
     font-family: Staatliches;
     font-size: 70px;
+    font-weight: bolder;
     color: white;
     text-shadow: 
         0 0 5px rgb(209, 76, 218),
@@ -733,6 +777,7 @@ footer {
 .usbox__contact__title {
     font-family: Staatliches;
     font-size: 40px;
+    font-weight: bolder;
     color: white;
     text-shadow: 
     0 0 5px rgb(71, 131, 188),
@@ -763,12 +808,38 @@ footer {
     box-shadow: none;
 }
 
+.owners__title {
+    font-family: Staatliches;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 
+    0 0 5px rgb(140, 158, 174),
+    0 0 10px rgb(140, 158, 174),
+    0 0 20px rgb(140, 158, 174),
+    0 0 40px rgb(101, 179, 179);
+    margin-bottom: 20px;
+}
+
+.owners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.card {
+    margin: 20px 20px;
+}
+
 /* -----------------------------PERSONAJES------------------------------ */
 .personajes__title {
     font-family: Staatliches;
     text-align: center;
     padding: 30px;
     font-size: 50px;
+    font-weight: bolder;
     color: white;
     text-shadow: 
         0 0 5px rgb(209, 76, 218),
@@ -813,6 +884,11 @@ footer {
 .biobox__left {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.menu__left {
+    margin: 20px;
 }
 
 .biobox__imagediv {
@@ -834,6 +910,7 @@ footer {
 .personaje__title {
     font-family: Staatliches;
     font-size: 40px;
+    font-weight: bolder;
     color: white;
     text-shadow: 
     0 0 5px rgb(71, 131, 188),
@@ -859,6 +936,13 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
+}
+
+.menu__right {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+    text-decoration: none;
 }
 
 .personajesbox__link {
@@ -898,6 +982,7 @@ footer {
 .formulario__titulo {
     font-family: Staatliches;
     font-size: 6rem;
+    font-weight: bolder;
     color: white;
     text-shadow: 5px 5px 0px black
 }
