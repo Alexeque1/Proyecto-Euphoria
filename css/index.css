@@ -21,7 +21,6 @@ body {
   
 header {
     background: linear-gradient(to right, #6F2DBD, #a165e6, #6F2DBD);
-    position: fixed;
     height: 7rem;
     display: flex;
 }
@@ -56,6 +55,12 @@ header {
     font-family: Staatliches;
     font-size: 27px;
     margin: 0.9rem;
+    transition: box-shadow 0.5s;
+}
+
+.navbar__link:hover {
+    box-shadow: 2px 2px 20px rgb(220, 210, 230);
+    background: linear-gradient(to right, #422a5d, #7a4bb0);
 }
 
 .presentation__section {
@@ -533,6 +538,7 @@ footer {
     margin: 20px auto;
 }
 
+
 .noticias__newsbox__image {
     width: 100%;
 }
@@ -815,6 +821,27 @@ footer {
     flex-wrap: wrap;
 }
 
+.bio__button {
+    margin-top: 20px;
+}
+
+.bio__button__link {
+    background-color: #69686a;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: Staatliches;
+    font-size: 20px;
+    margin: 0px 10px
+}
+
+.bio__button__link:hover {
+    background-color: #66228b;
+    box-shadow: none;
+}
+
 .biobox__imagediv {
     width: 40rem;
 }
@@ -859,6 +886,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
+    margin-bottom: 25px;
 }
 
 .personajesbox__link {
@@ -1016,6 +1044,13 @@ footer {
 .div-grid:nth-of-type(4) {
     grid-column: 8 / 13;
     grid-row: 1 / 4;
+}
+
+@media screen and (max-width: 1400px) {
+    .bio__button {
+        margin: 40px 0px;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 1070px) {
