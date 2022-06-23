@@ -1,0 +1,13 @@
+////////// NORMALIZE //////////
+@import './normalize/normalize';
+
+////////// PARTIALS //////////
+@import './partials/header';
+@import './partials/footer';
+
+////////// VIEWS //////////
+@import './views/home';
+@import './views/noticias';
+@import './views/nosotros';
+@import './views/personajes';
+@import './views/contacto';

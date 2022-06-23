@@ -1,0 +1,61 @@
+////////// FOOTER //////////
+
+.footer {
+    background-color: rgb(68, 66, 66);
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+
+    .footer__socialmedia {
+        padding: 30px;
+        width: 50%;
+        text-align: center;
+
+        .footer__socialmediabox {
+            text-align: center;
+            width: 3rem;
+            margin: auto;
+
+            .socialmedia__items {
+                text-decoration: none;
+                color: white;
+                text-shadow: 5px 5px 0px black;
+                font-family: Staatliches;
+                font-size: 30px;
+
+                .footer__picture {
+                    margin: auto;
+
+                    .footer__image {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer__nav {
+        padding: 30px;
+        width: 50%;
+        text-align: center;
+
+        .footer__nav__box {
+            margin: 10px 0px;
+
+            .footer__nav__title {
+                text-decoration: none;
+                color: white;
+                text-shadow: 5px 5px 0px black;
+                font-family: Staatliches;
+                font-size: 35px;
+            }
+
+            .footer__nav__link {
+                text-decoration: none;
+                font-family: HelveticaNeue1;
+                font-size: 30px;
+                color: white;
+            }
+        }
+    }
+}

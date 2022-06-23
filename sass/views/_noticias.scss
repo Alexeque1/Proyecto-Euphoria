@@ -1,0 +1,108 @@
+////////// HOME //////////
+.news__section {
+    padding: 30px;
+
+    .noticias__newsbox__titlesection {
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        margin: 10px 0px;
+
+        .newsbox__titlesection__title {
+            font-family: Staatliches;
+            font-size: 70px;
+            color: white;
+            text-shadow: 
+                0 0 5px rgb(209, 76, 218),
+                0 0 10px rgb(209, 76, 218),
+                0 0 20px rgb(209, 76, 218),
+                0 0 40px rgba(38,104,127,1),
+                0 0 80px rgba(38,104,127,1),
+                0 0 90px rgba(38,104,127,1),
+                0 0 100px rgba(38,104,127,1),
+                0 0 140px rgba(38,104,127,1),
+                0 0 180px rgba(38,104,127,1);
+        }
+        
+        .newsbox__titlesection__description {
+            text-decoration: none;
+            font-family: HelveticaNeue1;
+            font-size: 30px;
+            color: white;
+        }
+    }
+
+    .noticias__newsbox__box {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+
+        .noticias__newsbox__news {
+            width: 30rem;
+            background-color: #74269d;
+            box-shadow: 10px 10px 30px rgb(36, 13, 58);
+            margin: 20px auto;
+
+            .noticias__newsbox__image {
+                width: 100%;
+            }
+
+            .noticias__news__articlebox {
+                padding: 10px;
+                text-align: center;
+
+                .noticias__news__title {
+                    font-family: Staatliches;
+                    font-size: 40px;
+                    color: white;
+                    text-shadow: 
+                    0 0 5px rgb(209, 76, 218),
+                    0 0 10px rgb(209, 76, 218),
+                    0 0 20px rgb(209, 76, 218),
+                    0 0 40px rgba(38,104,127,1),
+                    0 0 80px rgba(38,104,127,1),
+                    0 0 90px rgba(38,104,127,1),
+                    0 0 100px rgba(38,104,127,1),
+                    0 0 140px rgba(38,104,127,1),
+                    0 0 180px rgba(38,104,127,1);
+
+                    .specialtext {
+                        font-family: Staatliches;
+                        font-size: 40px;
+                        color: rgb(252, 203, 203);
+                        text-shadow: 
+                            0 0 5px rgb(71, 131, 188),
+                            0 0 10px rgb(75, 139, 207),
+                    }
+                }
+                
+                .noticias__news__article {
+                    font-family: HelveticaNeue1;
+                    font-size: 20px;
+                    color: white;
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        .noticias__newsbox__button {
+            text-align: center;
+
+            .noticias__newsbox__link {
+                background-color: #69686a;
+                box-shadow: 3px 3px 10px black;
+                border-radius: 5px;
+                padding: 10px;
+                text-decoration: none;
+                color: white;
+                font-family: Staatliches;
+                font-size: 20px;
+            }
+
+            .noticias__newsbox__link:hover {
+                background-color: #66228b;
+                box-shadow: none;
+            }
+        }
+    }
+}

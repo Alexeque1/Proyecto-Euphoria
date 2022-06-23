@@ -1,0 +1,45 @@
+////////// HEADER //////////
+header {
+    background: linear-gradient(to right, #6F2DBD, #a165e6, #6F2DBD);
+    height: 7rem;
+    display: flex;
+
+    .navbar__nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    
+        .navbar__logo {
+            width: 29%;
+    
+            .navbar__image {
+                width: 100%;
+                margin: auto;
+            }
+        }
+    
+        .navbar__list {
+            display: flex;
+    
+            .navbar__link {
+                background-color: rgba(0, 0, 0, 0.538);
+                box-shadow: 5px 5px 10px rgb(74, 26, 120);
+                text-decoration: none;
+                color: white;
+                border-radius: 10px;
+                padding: 5px;
+                font-family: Staatliches;
+                font-size: 27px;
+                margin: 0.9rem;
+                transition: box-shadow 0.5s;
+            }
+
+            .navbar__link:hover {
+                box-shadow: 2px 2px 20px rgb(220, 210, 230);
+                background: linear-gradient(to right, #422a5d, #7a4bb0);
+            }
+        }
+        
+    }
+}

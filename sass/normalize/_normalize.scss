@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue1';
+    src: url(../fonts/_H_HelveticaNeueInterface_3.ttf) format('truetype');
+    font-style: bold;
+    font-weight: normal;
+  }
+ 
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: rgb(79, 34, 122);
+}
+  

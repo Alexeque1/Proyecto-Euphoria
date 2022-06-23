@@ -1,0 +1,170 @@
+////////// HOME //////////
+
+.nosotrosbox__presentation {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 30px;
+    justify-content: space-between;
+
+    .nosotrosbox__div {
+        width: 50rem;
+        text-align: center;
+        margin: 0px auto;
+
+        .nosotros__image {
+            width: 100%;
+        }
+
+        .nosotros__description {
+            text-decoration: none;
+            color: white;
+            font-family: Staatliches;
+            font-size: 28px;
+            margin: auto;
+            padding: 30px;
+        }
+    }
+
+    .nosotrospurple {
+        background-color: #6F2DBD;
+    }
+}
+
+.nosotros__video {
+    display: flex;
+
+    .nosotrosbox__videosection {
+        display: flex;
+        margin: 0px auto;
+        padding: 10px;
+        width: 75rem;
+
+        .nosotrosbox__video {
+            width: 100%;
+        }
+    }
+}
+
+.nosotros__bannerparallax {
+    background-image: url(../img/bannerparallax.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10vh;
+}
+
+.usbox {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .usbox__title {
+        font-family: Staatliches;
+        font-size: 70px;
+        color: white;
+        text-shadow: 
+            0 0 5px rgb(209, 76, 218),
+            0 0 10px rgb(209, 76, 218),
+            0 0 20px rgb(209, 76, 218),
+            0 0 40px rgba(38,104,127,1),
+            0 0 80px rgba(38,104,127,1),
+            0 0 90px rgba(38,104,127,1),
+            0 0 100px rgba(38,104,127,1),
+            0 0 140px rgba(38,104,127,1),
+            0 0 180px rgba(38,104,127,1);
+    }
+    
+    .usbox__description {
+        font-family: HelveticaNeue1;
+        font-size: 30px;
+        color: white;
+        margin: 20px 0px;
+    }
+
+    .grilla__nosotros {
+        max-width: 1500px;
+        height: 100%;
+        margin: 0 auto;
+        padding: 10px;
+
+        .usbox__images {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(10, 1fr);
+            gap: 2px;
+            margin: auto;
+            
+            .usbox__picture {
+
+                .usbox__image {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .usbox__picture:nth-child(1) {
+                grid-column: 1 / 6;
+                grid-row: 1 / 5;
+            }
+            
+            .usbox__picture:nth-child(2) {
+                grid-column: 1 / 7;
+                grid-row: 5 / 11;
+            }
+            
+            .usbox__picture:nth-child(3) {
+                grid-column: 6 / 10;
+                grid-row: 1 / 5;
+            }
+            
+            .usbox__picture:nth-child(5) {
+                grid-column: 7 / 13;
+                grid-row: 5 / 11;
+            }
+            
+            .usbox__picture:nth-child(4) {
+                grid-column: 10 / 13;
+                grid-row: 1 / 5;
+            }
+        }
+    }
+
+    .usbox__contact {
+        margin: 30px;
+
+        .usbox__contact__title {
+            font-family: Staatliches;
+            font-size: 40px;
+            color: white;
+            text-shadow: 
+            0 0 5px rgb(71, 131, 188),
+            0 0 10px rgb(75, 139, 207),
+            0 0 20px rgb(75, 139, 207),
+            0 0 40px rgb(28, 67, 104),
+            0 0 80px rgb(28, 67, 104),
+            0 0 90px rgb(28, 67, 104),
+            0 0 100px rgb(50, 57, 188),
+            0 0 140px rgb(50, 57, 188),
+            0 0 180px rgb(50, 57, 188);
+            margin-bottom: 20px;
+        }
+        
+        .usbox__contact__link {
+            background-color: #69686a;
+            box-shadow: 3px 3px 10px black;
+            border-radius: 5px;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            font-family: Staatliches;
+            font-size: 20px;
+        }
+        
+        .usbox__contact__link:hover {
+            background-color: #66228b;
+            box-shadow: none;
+        }
+    }
+}
