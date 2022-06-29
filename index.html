@@ -10,8 +10,10 @@
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <meta name="description" content="El mayor Club de Fans de Euphoria está aquí. Podrás conocer las ultimas novedades de la serie y sus personajes. Nos dedicamos a que todos los fanaticos de Argentina y latinoamerica puedan unirse en uno">
+    <meta name="keywords" content="CLUB, FANS, EUPHORIA, HBO, RUE, SERIE, TV, MAQUILLAJE">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eupohoria - FanClub</title>
+    <title>Eupohoria FanClub - Home</title>
 </head>
 
 <body>
@@ -40,14 +42,14 @@
         </nav>
     </header>
 
-    <main class="main">
+    <main class="main" id="main">
     <section id="title" class="presentation__section">
         <div class="presentation">
             <h1 class="presentation__title">Euphoria Argentina</h1>
         </div>
     </section>
 
-    <section id="subtitle">
+    <section id="subtitle" class="subtitle">
         <div class="subtitlebox">
             <div class="subtitlebox__div">
                 <video class="subtitle__video" src="./img/Euphoriavideo.mp4" controls autoplay type="video/mp4"></video>
@@ -67,43 +69,48 @@
                 </div>
             </div>
         </div>
+        <div class="subtitlebox__button">
+            <a href="#main">
+                <button class="button-stick">Volver Arriba</button>
+            </a>
+        </div>
     </section>
 
     <section id="personajes" class="parallax">
         <div class="personajesbox">
             <div class="personajesbox__image">
-                <img class="personajesbox__title" src="./img/personajes.png">
+                <img class="personajesbox__title" src="./img/personajes.png" alt="Titulo de Personajes">
             </div>
 
             <div class="personajesbox__personajes">
                 <picture class="personajesbox__images">
                     <a href="./pages/personajes.html#rue">
-                        <img class="personajes" src="./img/rue.png" alt="Rue">
+                        <img class="personajes" src="./img/rue.jpg" alt="Rue">
                     </a>
                 </picture> 
                 <picture class="personajesbox__images">
                     <a href="./pages/personajes.html#jules">
-                        <img class="personajes" src="./img/jules.png"" alt="Jules">
+                        <img class="personajes" src="./img/jules.jpg"" alt="Jules">
                     </a>
                 </picture>
                 <picture class="personajesbox__images">
                     <a href="./pages/personajes.html#cassie">
-                        <img class="personajes" src="./img/cassie.png" alt="Cassie">
+                        <img class="personajes" src="./img/cassie.jpg" alt="Cassie">
                     </a>
                 </picture>
                 <picture class="personajesbox__images">
                     <a href="./pages/personajes.html#fezco">
-                        <img class="personajes" src="./img/fizco.png" alt="Fezco">
+                        <img class="personajes" src="./img/fizco.jpg" alt="Fezco">
                     </a>
                 </picture>
                 <picture class="personajesbox__images">
                     <a href="./pages/personajes.html#maddy">
-                        <img class="personajes" src="./img/maddie.png" alt="Maddy">
+                        <img class="personajes" src="./img/maddie.jpg" alt="Maddy">
                     </a>
                 </picture>
                 <picture class="personajesbox__images">
                     <a href="./pages/personajes.html#nate">
-                        <img class="personajes" src="./img/nate.png" alt="Nate">
+                        <img class="personajes" src="./img/nate.jpg" alt="Nate">
                     </a>
                 </picture class="personajesbox__images">
                 <picture class="personajesbox__plus">
@@ -116,7 +123,7 @@
     </section>
 
     <section id="noticias">
-        <div class="newsbox">
+        <div class="newsbox color-secundario">
             <div class="newsbox__section">
                 <h3 class="section__title">Noticas</h3>
                 <p class="section__description">Encuentra aqui las ultimas noticias</p>
@@ -124,7 +131,7 @@
             <div class="newsbox__news">
                 <div class="news" data-aos="fade-down">
                     <picture class="news__picture">
-                        <img class="news__image" src="./img/noticia1.png">
+                        <img class="news__image" src="./img/noticia1.jpg" alt="Renovado para una tercera temporada">
                     </picture>
                     <div class="news__box">
                         <h3 class="news__title">Renovado para una tercera temporada</h3>
@@ -134,7 +141,7 @@
                 </div>
                 <div class="news" data-aos="fade-down">
                     <picture class="news__picture">
-                        <img class="news__image" src="./img/noticia2.png">
+                        <img class="news__image" src="./img/noticia2.jpg" alt="Los chicos estan listos para una temporada mas">
                     </picture>
                     <div class="news__box">
                         <h3 class="news__title">Los chicos estan listos para una temporada mas</h3>
@@ -144,7 +151,7 @@
                 </div>
                 <div class="news" data-aos="fade-down">
                     <picture class="news__picture">
-                        <img class="news__image" src="./img/noticia3.png">
+                        <img class="news__image" src="./img/noticia3.jpg" alt="Momento incomodo para Sydney">
                     </picture>
                     <div class="news__box">
                         <h3 class="news__title">Momento incomodo para Sydney</h3>
@@ -163,14 +170,14 @@
                 <p class="episodesbox__section__description">Dale un vistazo a los ultimos episodios de Euphoria</p>
             </div>
             <div class="episodes">
-                <div class="episodes__box">
+                <div class="episodes__box color-terciario">
                     <picture class="episodes__picturetitle">
                         <a class="episodes__link" href="https://euphoria.fandom.com/es/wiki/All_My_Life,_My_Heart_Has_Yearned_for_a_Thing_I_Cannot_Name">
-                            <img class="episodes__imagetitle" src="./img/episodioanterior.png">
+                            <img class="episodes__imagetitle" src="./img/episodioanterior.png" alt="Título episodio anterior">
                         </a>
                     </picture>
                     <picture class="episodes__picture">
-                        <img class="episodes__image" src="./img/lastepisode.jpg">
+                        <img class="episodes__image" src="./img/lastepisode.jpg" alt="Imagen de referencia del episodio anterior">
                     </picture>
                     <div class="episodes__episodebox">
                         <h3 class="episodes__title special">All My Life, My Heart Has Yearned for a Thing I Cannot Name</h3>
@@ -178,14 +185,14 @@
                             presente y el futuro.</p>
                     </div>
                 </div>
-                <div class="episodes__box">
+                <div class="episodes__box color-terciario">
                     <picture class="episodes__picturetitle">
                         <a class="episodes__link" href="https://euphoria.fandom.com/es/wiki/All_My_Life,_My_Heart_Has_Yearned_for_a_Thing_I_Cannot_Name">
-                            <img class="episodes__imagetitle" src="./img/episodesiguiente.png">
+                            <img class="episodes__imagetitle" src="./img/episodesiguiente.png" alt="Título del episodio anterior">
                         </a>
                     </picture>
                     <picture class="episodes__picture">
-                        <img class="episodes__image" src="./img/nextepisode.png">
+                        <img class="episodes__image" src="./img/nextepisode.jpg" alt="Imagen de referencia del episodio próximo">
                     </picture>
                     <div class="episodes__episodebox">
                         <h3 class="episodes__title higher special">Temporada 3</h3>
@@ -200,16 +207,16 @@
     <section class="grilla">
         <div class="grid">
             <div class="div-grid">
-                <img class="div-gri__image" src="./img/gallery1.png">
+                <img class="div-gri__image" src="./img/gallery1.png" alt="Euphoria vertical">
             </div>
             <div class="div-grid">
-                <img class="div-gri__image" src="./img/gallery2.jpg">
+                <img class="div-gri__image" src="./img/gallery2.jpg" alt="Rue en rojo">
             </div>
             <div class="div-grid">
-                <img class="div-gri__image" src="./img/gallery3.jpg">            
+                <img class="div-gri__image" src="./img/gallery3.jpg" alt="Rue y Jules">            
             </div>
             <div class="div-grid">
-                <img class="div-gri__image" src="./img/gallery4.jpg">            
+                <img class="div-gri__image" src="./img/gallery4.jpg" alt="Maquillaje de Jules">            
             </div>
         </div>
     </section>
@@ -220,57 +227,57 @@
       </script>
 </main>
 
-    <footer id="footer" class="footer">
-        <div class="footer__socialmedia">
-            <div class="footer__socialmediabox">
-                <a class="socialmedia__items" href="http://www.instagram.com">Instagram</a>
-                    <picture class="footer__picture">
-                        <img class="footer__image" src="./img/instagram.png" width="40px">
-                    </picture>
-                </a>
-            </div>
-            <div class="footer__socialmediabox">
-                <a class="socialmedia__items" href="http://www.facebook.com">Facebook</a>
-                    <picture class="footer__picture">
-                        <img class="footer__image" src="./img/facebook.png" width="40px">
-                    </picture>
-                </a>
-            </div>
-            <div class="footer__socialmediabox">
-                <a class="socialmedia__items" href="http://www.twitter.com">Twitter</a>
-                    <picture class="footer__picture">
-                        <img class="footer__image" src="./img/twitter.png" width="40px">
-                    </picture>
-                </a>
-            </div>
+<footer id="footer" class="footer">
+    <div class="footer__socialmedia">
+        <div class="footer__socialmediabox">
+            <a class="socialmedia__items" href="http://www.instagram.com">Instagram</a>
+                <picture class="footer__picture">
+                    <img class="footer__image" src="./img/instagram.png" alt="Logo Instagram" width="40px">
+                </picture>
+            </a>
         </div>
-        <div class="footer__nav">
-            <div class="footer__nav__box">
-                <h3 class="footer__nav__title">Contacto</h3>
-                <a class="footer__nav__link" href="#">
-                    <h6>contacto@gmail.com</h6>
-                </a>
-                <a class="footer__nav__link" href="https://wa.me/1123536589?text">
-                    <h6>1123536589</h6>
-                </a>
-            </div>
+        <div class="footer__socialmediabox">
+            <a class="socialmedia__items" href="http://www.facebook.com">Facebook</a>
+                <picture class="footer__picture">
+                    <img class="footer__image" src="./img/facebook.png" alt="Logo Facebook" width="40px">
+                </picture>
+            </a>
+        </div>
+        <div class="footer__socialmediabox">
+            <a class="socialmedia__items" href="http://www.twitter.com">Twitter</a>
+                <picture class="footer__picture">
+                    <img class="footer__image" src="./img/twitter.png" alt="Logo Twitter" width="40px">
+                </picture>
+            </a>
+        </div>
+    </div>
+    <div class="footer__nav">
+        <div class="footer__nav__box">
+            <h3 class="footer__nav__title">Contacto</h3>
+            <a class="footer__nav__link" href="#">
+                <img src="./img/correo.png" width="40px">
+            </a>
+            <a class="footer__nav__link" href="https://wa.me/1123536589?text">
+                <img src="./img/whatsapp.png" width="40px">
+            </a>
+        </div>
 
-            <div class="footer__nav__box">
-                <h3 class="footer__nav__title">Info</h3>
-                <a class="footer__nav__link website" href="./pages/noticias.html">
-                    <h6 >Noticias</h6>
-                </a>
-                <a class="footer__nav__link website" href="./pages/nosotros.html">
-                    <h6>Nosotros</h6>
-                </a>
-                <a class="footer__nav__link website" href="./pages/personajes.html">
-                    <h6>Personajes</h6>
-                </a>
-                <a class="footer__nav__link website" href="./pages/contacto.html">
-                    <h6>Contacto</h6>
-                </a>
-            </div>
+        <div class="footer__nav__box">
+            <h3 class="footer__nav__title">Info</h3>
+            <a class="footer__nav__link website" href="./noticias.html">
+                <h6 >Noticias</h6>
+            </a>
+            <a class="footer__nav__link website" href="./nosotros.html">
+                <h6>Nosotros</h6>
+            </a>
+            <a class="footer__nav__link website" href="./personajes.html">
+                <h6>Personajes</h6>
+            </a>
+            <a class="footer__nav__link website" href="./contacto.html">
+                <h6>Contacto</h6>
+            </a>
         </div>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>

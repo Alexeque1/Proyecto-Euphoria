@@ -9,7 +9,7 @@
         margin: 10px 0px;
 
         .newsbox__titlesection__title {
-            font-family: Staatliches;
+            font-family: $font-title;
             font-size: 70px;
             color: white;
             text-shadow: 
@@ -26,9 +26,22 @@
         
         .newsbox__titlesection__description {
             text-decoration: none;
-            font-family: HelveticaNeue1;
+            font-family: $font-text;
             font-size: 30px;
             color: white;
+        }
+    }
+
+    .news__button {
+        @include sticky-buttons;
+    
+        .button-stick-news {
+            @include buttons;
+        }
+    
+        .button-stick-news:hover {
+            background-color: #66228b;
+            box-shadow: none;
         }
     }
 
@@ -52,7 +65,7 @@
                 text-align: center;
 
                 .noticias__news__title {
-                    font-family: Staatliches;
+                    font-family: $font-title;
                     font-size: 40px;
                     color: white;
                     text-shadow: 
@@ -67,7 +80,7 @@
                     0 0 180px rgba(38,104,127,1);
 
                     .specialtext {
-                        font-family: Staatliches;
+                        font-family: $font-title;
                         font-size: 40px;
                         color: rgb(252, 203, 203);
                         text-shadow: 
@@ -77,32 +90,25 @@
                 }
                 
                 .noticias__news__article {
-                    font-family: HelveticaNeue1;
+                    font-family: $font-text;
                     font-size: 20px;
                     color: white;
                     margin-top: 20px;
                 }
             }
         }
+    }
 
-        .noticias__newsbox__button {
-            text-align: center;
+    .noticias__newsbox__button {
+        text-align: center;
 
-            .noticias__newsbox__link {
-                background-color: #69686a;
-                box-shadow: 3px 3px 10px black;
-                border-radius: 5px;
-                padding: 10px;
-                text-decoration: none;
-                color: white;
-                font-family: Staatliches;
-                font-size: 20px;
-            }
+        .noticias__newsbox__link {
+            @include buttons;
+        }
 
-            .noticias__newsbox__link:hover {
-                background-color: #66228b;
-                box-shadow: none;
-            }
+        .noticias__newsbox__link:hover {
+            background-color: #66228b;
+            box-shadow: none;
         }
     }
 }

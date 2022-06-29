@@ -11,7 +11,7 @@
     .presentation {
         display: flex;
         margin: auto;
-        font-family: Staatliches;
+        font-family: $font-title;
         font-size: 70px;
         color: white;
         text-align: center;
@@ -40,68 +40,80 @@
 }
  
 
-.subtitlebox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    justify-content: center;
-    margin: 10px auto;
-    margin-bottom: 20px;
+.subtitle {
 
-    .subtitlebox__div {
-        width: 50rem;
-        margin: 0px 10px;
-        text-align: center;
-        align-self: center;
-
-        .subtitle__video {
-            width: 100%;
-        }
-
-        .subtitlebox__subtitle {
-            font-family: Staatliches;
-            font-size: 60px;
-            color: white;
-            text-shadow: 
-                0 0 5px rgb(209, 76, 218),
-                0 0 10px rgb(209, 76, 218),
-                0 0 20px rgb(209, 76, 218),
-                0 0 40px rgba(38,104,127,1),
-                0 0 80px rgba(38,104,127,1),
-                0 0 90px rgba(38,104,127,1),
-                0 0 100px rgba(38,104,127,1),
-                0 0 140px rgba(38,104,127,1),
-                0 0 180px rgba(38,104,127,1);
-        }
-
-        .subtitlebox__description {
-            font-family: HelveticaNeue1;
-            font-size: 25px;
-            margin: 20px;
-            color: white;
-        }
-
-        .subtitlebox__phrase {
-            font-family: HelveticaNeue1;
-            font-size: 25px;
-            color: white;
-            text-shadow: 
-                0 0 5px rgb(209, 76, 218),
-                0 0 10px rgb(209, 76, 218),
-                0 0 20px rgb(209, 76, 218),
-                0 0 40px rgba(38,104,127,1),
-                0 0 80px rgba(38,104,127,1),
-                0 0 90px rgba(38,104,127,1),
-                0 0 100px rgba(38,104,127,1),
-                0 0 140px rgba(38,104,127,1),
-                0 0 180px rgba(38,104,127,1);
-            transition: transform 2s;
-        }
-
-        .subtitlebox__phrase:hover {
-            transform: scale(1.5,1.5);
+    .subtitlebox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        justify-content: center;
+        margin: 10px auto;
+        margin-bottom: 20px;
+    
+        .subtitlebox__div {
+            width: 50rem;
+            margin: 0px 10px;
+            text-align: center;
+            align-self: center;
+    
+            .subtitle__video {
+                width: 100%;
+            }
+    
+            .subtitlebox__subtitle {
+                font-family: $font-title;
+                font-size: 60px;
+                color: white;
+                text-shadow: 
+                    0 0 5px rgb(209, 76, 218),
+                    0 0 10px rgb(209, 76, 218),
+                    0 0 20px rgb(209, 76, 218),
+                    0 0 40px rgba(38,104,127,1),
+                    0 0 80px rgba(38,104,127,1),
+                    0 0 90px rgba(38,104,127,1),
+                    0 0 100px rgba(38,104,127,1),
+                    0 0 140px rgba(38,104,127,1),
+                    0 0 180px rgba(38,104,127,1);
+            }
+    
+            .subtitlebox__description {
+                font-family: $font-text;
+                font-size: 25px;
+                margin: 20px;
+                color: white;
+            }
+    
+            .subtitlebox__phrase {
+                font-family: $font-text;
+                font-size: 25px;
+                color: white;
+                text-shadow: 
+                    0 0 5px rgb(209, 76, 218),
+                    0 0 10px rgb(209, 76, 218),
+                    0 0 20px rgb(209, 76, 218),
+                    0 0 40px rgba(38,104,127,1),
+                    0 0 80px rgba(38,104,127,1),
+                    0 0 90px rgba(38,104,127,1),
+                    0 0 100px rgba(38,104,127,1),
+                    0 0 140px rgba(38,104,127,1),
+                    0 0 180px rgba(38,104,127,1);
+            }
         }
     }
+
+    .subtitlebox__button {
+        @include sticky-buttons
+
+        .button-stick {
+            @include buttons 
+        }
+
+        .button-stick:hover {
+            background-color: #66228b;
+            box-shadow: none;
+        }
+    }
+
 }
 
 .parallax {
@@ -155,7 +167,6 @@
 }
 
 .newsbox {
-    background-color: #74269d;
     margin: 20px 0px;
     padding: 10px;
     display: flex;
@@ -171,7 +182,7 @@
         width: 20rem;
 
         .section__title {
-            font-family: Staatliches;
+            font-family: $font-title;
             font-size: 50px;
             color: white;
             text-shadow: 
@@ -187,7 +198,7 @@
         }
         
         .section__description {
-            font-family: HelveticaNeue1;
+            font-family: $font-text;
             font-size: 25px;
             color: white;
         }
@@ -216,7 +227,7 @@
                 text-align: center;
 
                 .news__title {
-                    font-family: Staatliches;
+                    font-family: $font-title;
                     font-size: 40px;
                     color: white;
                     text-shadow: 
@@ -232,7 +243,7 @@
                 }
                 
                 .news__article {
-                    font-family: HelveticaNeue1;
+                    font-family: $font-text;
                     font-size: 20px;
                     color: white;
                 }
@@ -251,7 +262,7 @@
         text-align: center;
 
         .episodesbox__section__title {
-            font-family: Staatliches;
+            font-family: $font-title;
             font-size: 70px;
             color: white;
             text-shadow: 
@@ -267,7 +278,7 @@
         }
         
         .episodesbox__section__description {
-            font-family: HelveticaNeue1;
+            font-family: $font-text;
             font-size: 30px;
             color: white;
         }
@@ -279,7 +290,6 @@
         margin: auto;
 
         .episodes__box {
-            background-color: #a125e351;
             box-shadow: 10px 10px 30px rgb(36, 13, 58);
             border-radius: 20px;
             margin: auto;
@@ -300,7 +310,7 @@
                 text-align: center;
 
                 .episodes__title {
-                    font-family: Staatliches;
+                    font-family: $font-title;
                     font-size: 2.5rem;
                     color: white;
                     text-shadow: 
@@ -316,7 +326,7 @@
                 }
                 
                 .episodes__description {
-                    font-family: HelveticaNeue1;
+                    font-family: $font-text;
                     font-size: 25px;
                     color: white;
                 }

@@ -10,7 +10,7 @@
         margin: auto;
 
         .formulario__titulo {
-            font-family: Staatliches;
+            font-family: $font-title;
             font-size: 6rem;
             color: white;
             text-shadow: 5px 5px 0px black
@@ -18,7 +18,7 @@
 
         .formulario__description {
             padding: 30px;
-            font-family: HelveticaNeue1;
+            font-family: $font-text;
             font-size: 20px;
             color: white;
         }
@@ -37,7 +37,7 @@
                 width: 20rem;
                 height: 3rem;
                 margin: 5px 5px;
-                font-family: Staatliches;
+                font-family: $font-title;
                 font-size: 20px;
                 text-align: center;
                 border-radius: 20px;
@@ -75,14 +75,7 @@
                 text-align: center;
 
                 .formulario__submit {
-                    background-color: #69686a;
-                    box-shadow: 3px 3px 10px black;
-                    border-radius: 5px;
-                    padding: 10px;
-                    text-decoration: none;
-                    color: white;
-                    font-family: Staatliches;
-                    font-size: 20px;
+                    @include buttons
                 }
                 
                 .formulario__submit:hover {

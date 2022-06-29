@@ -84,10 +84,68 @@
 
 @media screen and (max-width: 550px) {
 
+    .footer {
+
+        .footer__socialmedia {
+            padding: 10px;
+
+            .footer__socialmediabox {
+                
+                .socialmedia__items {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .footer__nav {
+            padding: 10px;
+
+            .footer__nav__box {
+
+                .footer__nav__title {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
     .presentation__section {
         background-image: url(../img/euphoriapresentation.jpg);
         background-position: center;
+
+        .presentation {
+            font-size: 30px;
+        }
     }
+
+    .subtitle {
+
+        .subtitlebox {
+
+            .subtitlebox__div {
+
+                .subtitlebox__subtitle {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+
+    .episodesbox {
+
+        .episodesbox__section {
+            width: 100%;
+
+            .episodesbox__section__title {
+                font-size: 4rem;
+            }
+
+            .episodesbox__section__description {
+                font-size: 25px;
+            }
+        }
+    }
+
     
     .newsbox {
         padding: 0px;
@@ -106,30 +164,66 @@
         }
     }
 
-    .formulario__titulo {
-        font-size: 70px;
-    }
+    .formulariobox {
 
-    .name__lastname__form {
-        width: 100%;
-    }
+        .formulariobox__titulo {
+            width: 100%;
 
-    .email__form {
-        width: 100%;
-    }
+            .formulario__titulo {
+                font-size: 3rem;
+            }
+        }
 
-    .age__country {
-        flex-direction: column;
-    }
+        .formulariobox__formulario {
+            width: 100%;
 
-    .comment {
-        width: 100%;
+            .formulario {
+
+                .formulario__item {
+
+                    .formulario__input {
+                        width: 90%;
+                    }
+                
+                    .name__lastname__form {
+                        width: 90%;
+                    }
+                
+                    .email__form {
+                        width: 90%;
+                    }
+
+                    .country__form {
+                        width: 90%;
+                    }
+                
+                    .age__country {
+                        flex-direction: column;
+                    }
+                
+                    .comment {
+                        width: 90%;
+                    }
+                }
+            }
+        }
     }
 
 
 }
 
 @media screen and (max-width: 450px) {
+
+    header {
+        height: 14rem;
+
+        .navbar__nav {
+
+            .navbar__logo {
+                width: 60%;
+            }
+        }
+    }
 
     .presentation {
         font-size: 50px;
@@ -245,9 +339,5 @@
     .grilla {
         width: 100%;
         padding: 0px;
-    }
-
-    .formulariobox__formulario {
-        width: 100%;
     }
 }
